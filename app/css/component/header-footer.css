@@ -1,0 +1,26 @@
+/* ========== HEADER START ========== */
+.header{
+    background: #ffffff;
+    margin-bottom: 100px;
+}
+.header .top-header{
+    padding: 27px 0;
+}
+.header .htop-header .auth-controls{
+    line-height: 38px;
+}
+.header .auth-controls span{
+    color: #e74c3c;
+    margin-right: 4px;
+}
+.header .bottom-header{
+    padding: 25px 0;
+    background-color: #263238; 
+}
+.header .bottom-header a{
+    color: #fff;
+}
+.header .bottom-header a + a{
+    margin-left: 40px;
+}
+/* ========== HEADER END ========== */
