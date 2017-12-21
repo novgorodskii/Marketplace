@@ -1,0 +1,355 @@
+
+body{
+    background: #bce1f8;
+}
+.btn-row{
+    padding: 20px;
+}
+div.pagination{
+    padding: 20px;
+}
+
+/* BUTTONS START */
+
+.btn{
+    display: inline-block;
+    width: 225px;
+    font-size: 18px;
+    padding: 25px 0;
+    border: none;
+    font-weight: 400;
+    text-align: center; 
+}
+
+/* ==== 03_main_home ==== */
+
+.btn.btn-shadow{
+    width: 163px;
+    font-size: 16px;
+    padding: 20px 0;  
+}
+.btn.btn-default.btn-shadow{
+    -webkit-box-shadow: 0 1px 3px 0 rgba(204, 216, 228, 0.75);
+    box-shadow: 0 1px 3px 0 rgba(204, 216, 228, 0.75);
+}
+.btn.btn-default,
+.btn.btn-shadow.btn-default{
+    background: #fff;
+    color: #263238;
+}
+.btn.btn-default:hover,
+.btn.btn-shadow.btn-defaul:hover{
+    background: rgb(199, 193, 193);
+    color: #263238;
+}
+.btn.btn-header{
+    width: 72px;
+    font-size: 12px;
+    padding: 10px 0;
+    border-radius: 2px; 
+}
+.btn.btn-default.btn-header:hover{
+    background: #e74c3c;
+}
+
+/* ==== 03_main_home end ==== */
+
+.btn.btn-header.btn-default,
+.btn.personal-information-upd.btn-default,
+.btn.btn.following.btn-default,
+.btn.documentation.btn-default,
+.btn.btn-aside.btn-default,
+.btn.btn-aside.add-to-cart.btn-default,
+.btn.your-item-sub.btn-default,
+.btn.your-sales-find.btn-default,
+.btn.drop-us-message.btn-default{
+    background: #8bc34a;
+    color: #fff;
+}
+.btn.personal-information-upd.btn-default:hover,
+.btn.btn.following.btn-default:hover,
+.btn.documentation.btn-default:hover,
+.btn.btn-aside.btn-default:hover,
+.btn.btn-aside.add-to-cart.btn-default:hover,
+.btn.your-item-sub.btn-default:hover,
+.btn.your-sales-find.btn-default:hover,
+.btn.drop-us-message.btn-default:hover{
+    background: #c9f09b;
+    color: #fff;
+}
+/* ====  04_all new items ==== */
+
+.btn.btn-aside{
+    width: 205px;
+    padding: 16px 0;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* Font Awesome */
+
+i.fa.fa-search,
+i.fa.fa-shopping-cart,
+i.fa.fa-heart-o,
+i.fa.fa-pencil-square-o,
+i.fa.fa-envelope-o{
+    padding-right: 9px;
+}
+
+/* Font Awesome end */
+
+/* ====  04_all new items end ==== */
+
+/* ==== 08_category brows ==== */
+
+.btn.btn-on-drop-down.cart,
+.btn.btn-on-drop-down.checkout{
+    padding: 12px 0;
+    font-weight: 700;
+    font-size: 14px;
+}
+.btn.btn-on-drop-down.cart{
+    width: 105px;
+}
+.btn.btn-on-drop-down.checkout{
+    width: 123px;
+}
+.btn.btn-on-drop-down.cart.btn-default,
+.btn.btn-on-drop-down.checkout.btn-default{
+    background: #95c85a;
+    color: #f4f6f5;
+}
+.btn.btn-on-drop-down.cart.btn-default:hover,
+.btn.btn-on-drop-down.checkout.btn-default:hover{
+    background: #e85647;
+}
+
+/* ==== 08_category brows end ==== */
+
+/* ==== 09_product details ==== */
+
+.btn.view-profile{
+    width: 90px;
+    padding: 8px 0;
+    font-size: 13px;
+    border: 1px solid #d5d5d5;
+}
+.btn.view-profile.btn-default{
+    background: #fff;
+    color: #707070;
+}
+.btn.view-profile.btn-default:hover{
+    background: rgb(201, 187, 187);
+    color: #fff;
+}
+.btn.btn-aside.add-to-cart,
+.btn.btn-aside.add-to-favourites,
+.btn.btn-aside.buy-now{
+    width: 205px;
+    padding: 16px 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn.btn-aside.add-to-favourites{
+    font-weight: 500;
+}
+.btn-aside.add-to-favourites.btn-default{
+    background: #42a5f5;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(69, 90, 100, 0.75);
+    box-shadow: 0 1px 2px 0 rgba(69, 90, 100, 0.75);   
+}
+.btn-aside.add-to-favourites.btn-default:hover{
+    background: #86b3d6;
+}
+.btn.btn-aside.buy-now.btn-default{
+    background: #546e7a;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(69, 90, 100, 0.75);
+    box-shadow: 0 1px 2px 0 rgba(69, 90, 100, 0.75);
+}
+.btn.btn-aside.buy-now.btn-default:hover{
+    background: #a6c5d3;
+}
+.btn.btn-aside.add-to-cart.btn-default{
+    -webkit-box-shadow: 0 1px 2px 0 rgba(69, 90, 100, 0.75);
+    box-shadow: 0 1px 2px 0 rgba(69, 90, 100, 0.75);
+}
+.btn.live-preview,
+.btn.screenshots,
+.btn.documentation{
+    font-size: 16px;
+    padding: 18px 0;
+    width: 158px;
+    font-weight: 500;
+}
+.btn.live-preview{
+    width: 138px;
+}
+.btn.live-preview.btn-default,
+.btn.screenshots.btn-default,
+.btn.documentation.btn-default{
+    color: #f4f6f5;
+}
+.btn.live-preview.btn-default{
+    background: #e74c3c;
+}
+.btn.live-preview.btn-default:hover{
+    background: #f7948d;
+}
+.btn.screenshots.btn-default{
+    background: #455a64;
+}
+.btn.screenshots.btn-default:hover{
+    background: #a6c5d3;
+}
+
+/* ==== 09_product details end==== */
+
+/* ==== 10_profile details ==== */
+
+.btn.send-message,
+.btn.following{
+    width: 270px;
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn.following{
+    font-weight: 700;
+}
+.btn.send-message.btn-default,
+.btn.btn.following.btn-default{
+    -webkit-box-shadow: 0 1px 2px 0 rgba(69, 90, 100, 0.75);
+    box-shadow: 0 1px 2px 0 rgba(69, 90, 100, 0.75);
+    color: #fff;
+}
+.btn.send-message.btn-default{
+    background: #546e7a;
+}
+.btn.send-message.btn-default:hover{
+    background: #a6c5d3;
+}
+      
+/* ==== 10_profile details end ==== */
+
+/* ==== 16_setting_personal info, 21_upload products, 22_sales statement==== */
+
+.btn.personal-information-upd,
+.btn.your-item-sub,
+.btn.your-sales-find{
+    width: 107px;
+    padding: 15px 0;
+    font-weight: 500;
+    font-size: 15px;
+}
+.btn.your-item-sub{
+    width: 125px;
+}
+.btn.your-sales-find{
+    width: 61px;
+    padding: 8px 0;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/* ==== 16_setting_personal info, 21_upload products, 22_sales statement end ==== */
+
+/* ==== 28_contact ==== */
+
+.btn.drop-us-message{
+    width: 190px;
+    padding: 20px 0;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* ==== 28_contact end ==== */
+
+/* ==== 29_404 ==== */
+
+.btn.was-not-found{
+    width: 210px;
+    padding: 22px 0;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-weight: 700;
+    border-radius: 4px;
+}
+.btn.was-not-found.btn-default{
+    color: #fff;
+    background: rgba(0,0,0,0);
+    border: 2px solid #fff;
+}
+.btn.was-not-found.btn-default:hover{
+    color: rgb(240, 100, 100);
+    background: rgba(0,0,0,0);
+    border: 2px solid rgb(240, 100, 100);
+}
+
+/* ==== 29_404 end ==== */
+
+/* ==== 30_login ====  */
+
+.btn.creat-an-account{
+    width: 250px;
+    padding: 17px 0; 
+}
+.btn.creat-an-account.btn-default{
+    background: #76ae36;
+    color: #fff;
+}
+.btn.creat-an-account.btn-default:hover{
+    background: #bee295;
+    color: #fff;
+}
+.btn.login-sub{
+    width: 140px;
+    padding: 20px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.btn.login-sub.btn-default{
+    background: #fff;
+    color: #000;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(118, 174, 54, 0.75);
+    box-shadow: 0 2px 2px 0 rgba(118, 174, 54, 0.75);        
+}
+.btn.login-sub.btn-default:hover{
+    background: rgb(182, 177, 177);
+}
+
+/* ==== 30_login end ====  */
+
+/* BUTTONS END */
+
+/* PAGINATION */
+.pagination{
+    display: inline-block;
+}
+.pagination a{
+    float: left;
+    width: 43px;
+    padding: 13px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #263238;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 2px rgba(205, 214, 222, .75);
+    box-shadow: 0 1px 2px rgba(205, 214, 222, .75);
+    text-align: center;
+}
+.pagination a + a{
+   margin-left: 8px;
+}  
+.pagination a:hover,
+.pagination a:focus{
+    background: #e74c3c;
+      color: #fff;
+}
+.pagination a:hover:not,
+.pagination a:focus:not{
+    background: #e74c3c;
+    color: #fff;
+}
+
+/* PAGINATION END */
