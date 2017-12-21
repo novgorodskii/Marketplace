@@ -5,12 +5,45 @@
 .header .top-header{
     padding: 27px 0;
 }
-.header .top-header .auth-controls{
-    line-height: 38px;
-}
-.header .auth-controls span{
+.header .top-header .auth-controls .auth-controls-help{
     color: #e74c3c;
     margin-right: 4px;
+}
+.header .top-header .auth-controls .notification{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.header .top-header .auth-controls .notification .notification-item{
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+.header .top-header .auth-controls .notification .notification-item + .notification-item{
+    margin-left: 15px;
+}
+.notification .notification-item .number-notification{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50%;
+    top: -5px;
+    right: -5px;
+    text-align: center;
+}
+.notification .notification-item .number-notification span{
+    font-size: 11px;
+    color: #fff;
+}
+.header .top-header .auth-controls .user-controls{
+    margin-right: 30px;
+}
+.header .top-header .auth-controls .user-controls .user-name{
+    margin-left: 15px;
+}
+.header .top-header .auth-controls .user-controls .user-name .user-balance{
+    color: #95c85a;
 }
 .header .bottom-header{
     padding: 25px 0;
@@ -23,3 +56,25 @@
     margin-left: 40px;
 }
 /* ========== HEADER END ========== */
+/* ========== bg ========== */
+.bg-orange{
+    background-color: #ef6c00;
+}
+.bg-light-orange{
+    background-color: #fcb322;
+}
+.bg-green{
+    background-color: #95c85a;
+}
+/* ========== bg end ========== */
+
+/* ========== btn end ========== */
+/* Временная кнопка */
+.header-btn{
+    width: 72px;
+    height: 32px;
+    background-color: #e74c3c;
+    color: #fff;
+    border-radius: 5px;
+}
+/* ========== btn end ========== */
