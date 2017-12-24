@@ -1,0 +1,23 @@
+/* ==== Breadcrumb ==== */
+
+ul.breadcrumb {
+    padding: 48px 0 42px;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+    font-weight: 400;
+    color: #263238;
+}
+ul li.hyphen{
+    color: #8bc34a;
+    padding: 0 7px;
+}
+ul.breadcrumb li a{
+    color: #b0bec5;
+}
+ul.breadcrumb li a:hover{
+    color: #8bc34a;
+}
+
+/* ==== Breadcrumb end ==== */
