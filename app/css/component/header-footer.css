@@ -13,17 +13,23 @@
     margin-left: 30px;
     margin-right: 20px;
 }
-.header .top-header .auth-controls .notification .notification-item{
+.header .top-header .notification-content .notification-item-icon a{
+    color: #a0a0a0;
+}
+.header .top-header .notification-content .notification-item-icon a:hover{
+    color: #263238;
+}
+.header .top-header .auth-controls .notification .notification-content{
     border-radius: 50%;
     background-color: #f5f5f5;
     width: 35px;
     height: 35px;
     position: relative;
 }
-.header .top-header .auth-controls .notification .notification-item + .notification-item{
+.header .top-header .auth-controls .notification li + li{
     margin-left: 15px;
 }
-.notification .notification-item .number-notification{
+.notification .notification-content .number-notification{
     width: 15px;
     height: 15px;
     position: absolute;
@@ -32,7 +38,7 @@
     right: -5px;
     text-align: center;
 }
-.notification .notification-item .number-notification span{
+.notification .notification-content .number-notification span{
     font-size: 11px;
     color: #fff;
 }

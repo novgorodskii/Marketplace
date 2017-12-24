@@ -48,8 +48,8 @@ gulp.task('tinypng', function () {
 gulp.task('watch', ['autoprefixer', 'sprite', 'tinypng'], function () {
 
     gulp.watch( 'src/css/**/*.css', ['autoprefixer'] );
-    gulp.watch( 'src/sprite/*.png', ['sprite'] );
-    gulp.watch( 'src/img/**/*', ['tinypng'] );
+    // gulp.watch( 'src/sprite/*.png', ['sprite'] );
+    // gulp.watch( 'src/img/**/*', ['tinypng'] );
 
 });
 
