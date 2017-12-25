@@ -1,0 +1,17 @@
+.text-regular{
+    font-weight: 400;
+}
+.text-medium{
+    font-weight: 500;
+}
+.text-bold{
+    font-weight: 700;
+}
+.text-white{
+    color: #fff;
+}
+.default-text{
+    font-size: 15px;
+    color: #707070;
+    font-weight: 400;
+}

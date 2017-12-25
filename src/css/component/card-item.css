@@ -1,12 +1,170 @@
 /* ========== card ========== */
-.item{
-    flex-direction: column;
+/* .item - основная карточка, идут по 4 в ряд
+   .item.horizontal-item - горизонтальная карточка, которая тянется на всю ширину блока
+   .item.standart-item - стандартная катрочка, идут по 3 в ряд,  разворачивается в горизонтальную
+   .item.small-item - маленькая карточка
+   .item.small-horizontal-item - маленька горизонтальная карточка*/
+.item .item-author .item-author-comments,
+.item .item-description .item-info .item-info-price .item-info-sales,
+.item .item-description .item-info .item-info-text,
+.item.small-item .item-author .item-author-stars-value,
+.item.small-horizontal-item .item-author{
+    display: none;
 }
-.item .item-img{
-    height: 100px;
-    background-color: gray;
+.item.horizontal-item .item-author .item-author-comments,
+.item.horizontal-item .item-description .item-info .item-info-price .item-info-sales,
+.item.horizontal-item .item-description .item-info .item-info-text{
+    display: inline-block;
+}
+.item .item-img img{
+    width: 100%;
+    min-height: 100%;
+}
+.item.small-horizontal-item .item-img img{
+    width: auto;
+    min-height: auto;
+    height: 90px;
+}
+.item .item-img a{
+    font-size: 0;
 }
 .item .item-description{
-    height: 200px;
-    background-color: lightblue;
+    width: 100%;
 }
+.item.small-horizontal-item .item-description{
+    height: 90px;
+}
+
+.item .item-description .item-info{
+    border-bottom: 1px solid #e7ecf2;
+}
+.item.small-item .item-description .item-info{
+    border: none;
+}
+.item .item-description .item-info .item-info-name{
+    padding: 25px 0 20px 32px;
+}
+.item.standart-item .item-description .item-info .item-info-name{
+    padding: 25px 0 25px 20px;
+}
+.item.small-item .item-description .item-info .item-info-name{
+    padding: 20px 0 10px 0;
+}
+.item.small-horizontal-item .item-description .item-info .item-info-name{
+    padding: 20px 15px 0 20px;
+}
+.item .item-description .item-info .item-info-name .item-info-title{
+    font-size: 18px;
+    font-weight: 500;
+    color: #263238;
+    margin-bottom: 10px;
+}
+.item.horizontal-item .item-description .item-info .item-info-name .item-info-title,
+.item.standart-item .item-description .item-info .item-info-name .item-info-title,
+.item.small-item .item-description .item-info .item-info-name .item-info-title{
+    font-size: 16px;
+}
+.item.small-horizontal-item .item-description .item-info .item-info-name .item-info-title{
+    font-size: 14px;
+}
+.item .item-description .item-info .item-info-name .item-info-category{
+    font-size: 14px;
+    font-weight: 500;
+    color: #8bc34a;
+}
+.item.small-horizontal-item .item-description .item-info .item-info-name .item-info-category{
+    font-size: 12px;
+}
+.item .item-description .item-info .item-info-name .item-info-text{
+    font-size: 14px;
+    color: #70838d;
+    margin-top: 15px;
+}
+.item .item-description .item-info-price{
+    padding: 25px 32px 20px 0;
+}
+.item.standart-item .item-description .item-info-price{
+    padding: 25px 20px 20px 0;
+}
+.item.small-item .item-description .item-info-price{
+    padding: 20px 0px 10px 0;
+}
+.item.small-horizontal-item .item-description .item-info-price{
+    padding: 10px 20px 10px 20px;
+}
+.item .item-description .item-info-price .price-span{
+    font-size: 20px;
+    font-weight: 700;
+    color: #263238;
+    margin: auto;
+}
+.item.small-item .item-description .item-info-price .price-span{
+    font-size: 16px;
+}
+.item.small-horizontal-item .item-description .item-info-price .price-span{
+    font-size: 18px;
+    margin: 0 auto 0 0;
+
+}
+.item.horizontal-item .item-description .item-info-price .price-span{
+    font-size: 30px;
+    margin: 0;
+}
+.item.standart-item .item-description .item-info-price .price-span,
+.item.small-item .item-description .item-info-price .price-span{
+    margin: 0;
+}
+
+.item .item-description .item-info-price .item-info-sales{
+    font-size: 13px;
+    color:  #aeb4bb;
+}
+.item .item-description .item-author{
+    border-bottom: 1px solid #d9e0e3;
+    padding: 18px 32px 21px 32px;
+}
+.item.standart-item .item-description .item-author{
+    padding: 16px 20px 18px 20px;
+}
+.item.small-item .item-description .item-author{
+    padding: 10px 0 29px 0;
+}
+.item.small-horizontal-item .item-description .item-author{
+    border: none;
+}
+.item .item-description .item-author .item-author-name{
+    margin-left: 10px;
+    font-size: 14px;
+    color: #546e7a;
+    font-weight: 500;
+}
+.item.standart-item .item-description .item-author .item-author-name
+.item .item-description .item-author .item-author-stars{
+    margin-right: 13px;
+}
+.item.standart-item .item-description .item-author .item-author-stars{
+    margin-right: 5px;
+}
+.item .item-description .item-author .item-author-stars li{
+    font-size: 12px;
+    color: #ffa726;
+}
+.item .item-description .item-author .item-author-comments{
+    margin-left: 30px;
+}
+.item .item-description .item-author .item-author-comments .rating-value{
+    font-size: 12px;
+    color: #263238;
+}
+.item .item-description .item-author .item-author-comments .rating-stars,
+.item .item-description .item-author .item-author-comments .rating-heart{
+    font-size: 16px;
+    color: #8bc34a;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 1px solid #aeb4bb;
+}
+.item .item-description .item-author .item-author-comments .rating-heart{
+    margin-left: 25px;
+}
+
