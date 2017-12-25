@@ -1,0 +1,86 @@
+/* ========== HEADER START ========== */
+.header{
+    background: #ffffff;
+}
+.header .top-header{
+    padding: 27px 0;
+}
+.header .top-header .auth-controls .auth-controls-help{
+    color: #e74c3c;
+    margin-right: 4px;
+}
+.header .top-header .auth-controls .notification{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.header .top-header .notification-content .notification-item-icon a{
+    color: #a0a0a0;
+}
+.header .top-header .notification-content .notification-item-icon a:hover{
+    color: #263238;
+}
+.header .top-header .auth-controls .notification .notification-content{
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+.header .top-header .auth-controls .notification li + li{
+    margin-left: 15px;
+}
+.notification .notification-content .number-notification{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50%;
+    top: -5px;
+    right: -5px;
+    text-align: center;
+}
+.notification .notification-content .number-notification span{
+    font-size: 11px;
+    color: #fff;
+}
+.header .top-header .auth-controls .user-controls{
+    margin-right: 30px;
+}
+.header .top-header .auth-controls .user-controls .user-name{
+    margin-left: 15px;
+}
+.header .top-header .auth-controls .user-controls .user-name .user-balance{
+    color: #95c85a;
+}
+.header .bottom-header{
+    padding: 25px 0;
+    background-color: #263238; 
+}
+.header .bottom-header a{
+    color: #fff;
+}
+.header .bottom-header a + a{
+    margin-left: 40px;
+}
+/* ========== HEADER END ========== */
+/* ========== bg ========== */
+.bg-orange{
+    background-color: #ef6c00;
+}
+.bg-light-orange{
+    background-color: #fcb322;
+}
+.bg-green{
+    background-color: #95c85a;
+}
+/* ========== bg end ========== */
+
+/* ========== btn end ========== */
+/* Временная кнопка */
+.header-btn{
+    width: 72px;
+    height: 32px;
+    background-color: #e74c3c;
+    color: #fff;
+    border-radius: 5px;
+}
+/* ========== btn end ========== */

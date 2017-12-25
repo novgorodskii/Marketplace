@@ -6,14 +6,143 @@
 .dropdown-container .dropdown-menu{
     position: absolute;
     display: none;
-    z-index: 99;
+    z-index: 199;
     background-color: #fff;
     border: 1px solid #d3d3d3;
+    -webkit-box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);
     box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);
-    min-width: 150px;
+    min-width: 160px;
 }
 .dropdown-container:hover .dropdown-menu{
     display: block;
 }
-
 /* ========== dropdown end ========== */
+
+/* ===== header dropdawn  ===== */
+.top-header .user-controls .dropdown-menu{
+    top: 66px;
+    left: -50px;
+}
+.top-header .notification .dropdown-menu{
+    top: 65px;
+    left: -230px;
+}
+.dropdown-menu .notifications-item {
+    padding: 20px;
+    min-width: 270px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.dropdown-menu .notifications-item:last-child {
+    border-bottom: none;
+}
+.dropdown-menu .notifications-item .notification-text .theme-notification{
+    font-size: 12px;
+}
+.dropdown-menu .notifications-item .notification-text .date-notification{
+    font-size: 10px;
+    color: #707070;
+}
+.dropdown-menu .notifications-item .notification-text .user-name-notification,
+.product-name-notification{
+    color: #263238;
+    font-size: 12px;
+    font-weight: bold;
+}
+.dropdown-menu .notifications-item .notification-text .price-notification{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+.dropdown-menu .notifications-item .circle-img{
+    width: 50px; 
+    height: 50px;
+    margin-right: 20px;
+}
+.dropdown-menu .notifications-item .rectangular-img{
+    width: 73px;
+    height: 57px;
+    margin-right: 15px;
+}
+.dropdown-menu .notifications-item .notifications-icon{
+    margin-top: 5px;
+    color: #b0bec5;
+}
+.dropdown-menu .notifications-item .notifications-icon:hover{
+    color: #ef6c00;
+}
+.total-price span{
+    font-size: 16px;
+    font-weight: bold;
+    color: #263238;
+}
+/* === dropdown user === */
+
+.top-header .user-controls .dropdown-user {
+    padding: 25px 20px;
+} 
+.top-header .user-controls .dropdown-user li + li{
+    margin-top: 25px;
+}
+.top-header .user-controls .dropdown-user li i{
+    color: #8bc34a;
+    font-size: 14px;
+    margin-right: 5px;
+    line-height: .8;
+}
+.top-header .user-controls .dropdown-user li a{
+    font-size: 12px;
+    color: #546e7a;
+}
+/* === dropdown user end === */
+
+/* ===== header dropdawn end  ===== */
+
+/* === dropdown-categories === */
+
+.dropdown-menu .dropdown-categories {
+    padding: 25px 40px 30px 35px;
+    min-width: 290px;
+}
+.dropdown-menu .dropdown-categories li + li{
+    margin-top: 30px;
+}
+.dropdown-menu .dropdown-categories li i{
+    margin-right: 10px;
+    color: #8bc34a;
+    font-size: 14px;
+}
+
+/* === dropdown-categories end === */
+
+/* ======== color ======== */
+
+.color-green{
+    color: #84b743;
+}
+
+/* ======== color end ======== */
+
+/* === btn === */
+
+.btn{
+    padding: 12px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+.btn-bg-green{
+    background-color: #95c85a;
+    width: 105px;
+    height: 35px;
+    margin-right: 6px;
+}
+.btn-bg-red{
+    background-color: #e85647;
+    width: 123px;
+    height: 35px;
+}
+.btn-cart{
+    margin-top: 17px;
+}
+/* === btn end === */
