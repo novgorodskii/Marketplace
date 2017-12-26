@@ -1,5 +1,7 @@
-// init slick slider
-$('.multiple-items').slick({
+$(function () {
+
+    // init slick slider
+  $('.multiple-items').slick({
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 4,
@@ -7,3 +9,7 @@ $('.multiple-items').slick({
     arrows: false,
     dots: true
   });
+
+  // init form styler for select
+  $('select').styler();
+});
