@@ -22,6 +22,9 @@
     <!-- Grid -->
     <link rel="stylesheet" href="css/grid.css">
 
+    <!-- Srite -->
+    <link rel="stylesheet" href="css/sprite.css">
+
     <!-- Components -->
     <link rel="stylesheet" href="css/component/default-component.css">
     <link rel="stylesheet" href="css/component/header-footer.css">
@@ -256,7 +259,7 @@
         <!-- / header-menu -->
     </header>
     <!-- HEADER END -->
-    
+        
     <!-- FOOTER -->
     <footer class="footer">
         <div class="container">
@@ -265,21 +268,27 @@
                     <div class="col-lg-3">
                         <div class="title-footer">
                             <span>About Company</span>
+                            <div class="green-border"></div>
                         </div>
-                        <p>Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna iat.Praesent vel rutrum purus. </p>
-                        <div class="contact-company">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <span>PO Box 16122 Collins Street West Victoria 8007 Australia</span>
-                            <i class="fa fa-phone" aria-hidden="true"></i>
-                            <span>+61 3 8376 6284</span>
+                        <p class="default-text-footer">Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna iat.Praesent vel rutrum purus. </p>
+                        <div class="contact-company  d-flex flex-column">
+                            <div class="adress-company d-flex flex-row">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <span>PO Box 16122 Collins Street West Victoria 8007 Australia</span>
+                            </div>
+                            <div class="telefon-company">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <span>+61 3 8376 6284</span>
+                            </div>
                         </div>
                     </div>
                     <!-- / footer-column -->
                     <div class="col-lg-3">
                         <div class="title-footer">
                             <span>Join Our Community</span>
+                            <div class="green-border"></div>
                         </div>
-                        <nav class="nav-community d-flex flex-column">
+                        <nav class="nav-footer d-flex flex-column default-text-footer">
                             <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Home</a>
                             <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Forums</a>
                             <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Become an Author</a>
@@ -291,8 +300,9 @@
                     <div class="col-lg-3">
                         <div class="title-footer">
                             <span>Need Help?</span>
+                            <div class="green-border"></div>
                         </div>
-                        <nav class="nav-help d-flex flex-column">
+                        <nav class="nav-footer d-flex flex-column default-text-footer">
                             <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Help Center</a>
                             <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Foxtar Market Terms</a>
                             <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Author Terms</a>
@@ -304,16 +314,16 @@
                     <div class="col-lg-3">
                         <div class="title-footer">
                             <span>Follow Us On</span>
+                            <div class="green-border"></div>
                         </div>
-                        <div class="social-icon">
-                            <nav class="nav-social"> 
-                                <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                                <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                                <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                                <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                                <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                            </nav>
-                        </div>
+                        <nav class="social-icon">
+                            <a href="" class="icon icon-fb"></a>
+                            <a href="" class="icon icon-twitter"></a>
+                            <a href="" class="icon icon-youtube"></a>
+                            <a href="" class="icon icon-pinterest"></a>
+                            <a href="" class="icon icon-linkedin"></a>
+                        </nav>
+                        <span class="sign-up">Newsletter Sign Up!</span>
                     </div>
                     <!-- / footer-column -->
                 </div>
@@ -323,8 +333,8 @@
         </div>
         <!-- / container -->
         <hr>
-        <div class="copyright d-flex justify-content-center">
-            <p>© 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.</p>
+        <div class="copyright d-flex">
+            <p class="m-auto">© 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.</p>
         </div>
     </footer>
     <!-- FOOTER END -->
