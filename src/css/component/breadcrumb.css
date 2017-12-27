@@ -1,23 +1,29 @@
 /* ==== Breadcrumb ==== */
 
-ul.breadcrumb {
-    padding: 48px 0 42px;
+.breadcrumb {
+    padding: 48px 0 42px 0;
 }
 ul.breadcrumb li {
-    display: inline;
+    display: inline-block;
     font-size: 15px;
     font-weight: 400;
-    color: #263238;
-}
-ul li.hyphen{
-    color: #8bc34a;
-    padding: 0 7px;
 }
 ul.breadcrumb li a{
     color: #b0bec5;
 }
-ul.breadcrumb li a:hover{
+.breadcrumb>.active {
+    color: #263238;
+}
+.breadcrumb>li a:focus,
+.breadcrumb>li a:hover {
     color: #8bc34a;
+}
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #8bc34a;
+    content: "-";
 }
 
 /* ==== Breadcrumb end ==== */
+
+
