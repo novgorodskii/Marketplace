@@ -128,7 +128,6 @@
 .footer-content .nav-footer a + a{
     margin-top: 25px;
 }
-
 .footer .footer-content .col-lg-3:not(:last-child) i{
     margin-right: 15px;
     color: #8bc34a;
@@ -142,6 +141,9 @@
 .footer .sign-up{
     font-size: 20px;
     color: #fff;
+}
+.footer .email-adresss-form{
+    background-color: #2f3c43;
 }
 .footer .copyright{
     padding-top: 25px;
