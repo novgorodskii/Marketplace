@@ -1,0 +1,18 @@
+/* ====== aside ===== */
+
+.aside-section{
+    background-color: #fff;
+    border: 1px solid #dedede;
+    padding: 23px 27px 30px;
+}
+.aside-section + .aside-section{
+    margin-top: 30px;
+}
+.aside-section .aside-section-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #263238;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dde3e8;
+}
+/* ====== aside end ===== */

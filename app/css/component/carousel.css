@@ -1,0 +1,33 @@
+/* === slick-dots === */
+.multiple-items .slick-dots {
+    bottom: -65px;
+}
+.multiple-items .slick-dots li {
+    width: 16px;
+    height: 16px;
+    margin: 0 -1px;
+}
+.multiple-items .slick-dots li + li {
+    margin-left: 7px;
+}
+.multiple-items .slick-dots li button {
+    font-size: 0;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+}
+.multiple-items .slick-dots li button:before {
+    font-size: 16px;
+    color: #e8e8e8;
+    opacity: 1;
+    line-height: 1em;
+    width: 16px;
+    height: 16px;
+}
+.multiple-items .slick-dots li:hover button:before {
+    color: #8bc34a;
+}
+.multiple-items .slick-dots li.slick-active button:before {
+    color: #8bc34a;
+    opacity: 1;
+}
