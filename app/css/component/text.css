@@ -1,4 +1,14 @@
-
+.title{
+    font-size: 36px;
+    color: #263238;
+    letter-spacing: 0;
+}
+.title.small-size-title{
+    font-size: 20px;
+}
+.title.medium-size-title{
+    font-size: 24px;
+}
 .text-regular{
     font-weight: 400;
 }
