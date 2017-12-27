@@ -1,3 +1,25 @@
+/* ========== bg ========== */
+.bg-orange{
+    background-color: #ef6c00;
+}
+.bg-light-orange{
+    background-color: #fcb322;
+}
+.bg-green{
+    background-color: #95c85a;
+}
+/* ========== bg end ========== */
+
+/* ========== btn end ========== */
+/* Временная кнопка */
+.header-btn{
+    width: 72px;
+    height: 32px;
+    background-color: #e74c3c;
+    color: #fff;
+    border-radius: 5px;
+}
+/* ========== btn end ========== */
 /* ========== HEADER START ========== */
 .header{
     background: #ffffff;
@@ -62,25 +84,70 @@
     margin-left: 40px;
 }
 /* ========== HEADER END ========== */
-/* ========== bg ========== */
-.bg-orange{
-    background-color: #ef6c00;
-}
-.bg-light-orange{
-    background-color: #fcb322;
-}
-.bg-green{
-    background-color: #95c85a;
-}
-/* ========== bg end ========== */
 
-/* ========== btn end ========== */
-/* Временная кнопка */
-.header-btn{
-    width: 72px;
-    height: 32px;
-    background-color: #e74c3c;
-    color: #fff;
-    border-radius: 5px;
+/* ========== FOOTER END ========== */
+
+.footer{
+    margin-top: 100px;
+    background: #263238;
 }
-/* ========== btn end ========== */
+.footer-content{
+    padding-top: 115px;
+    padding-bottom: 100px;
+}
+.footer-content a + a{
+    margin-top: 25px;
+}
+.title-footer{
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+}
+.title-footer .green-border{
+    margin-bottom: 32px;
+    margin-top: 28px;
+    width: 51px;
+    border-top:  3px solid #8bc34a;
+}
+.footer .contact-company{
+    margin-top: 35px;
+}
+.footer .contact-company span{
+    color: #fff;
+}
+.footer .contact-company .adress-company{
+    margin-bottom: 25px;   
+}
+.footer .contact-company .adress-company span{
+    line-height: 24px;
+}
+.default-text-footer{
+    font-size: 15px;
+    color: #b7c3c8;
+}
+.footer-content .nav-footer a + a{
+    margin-top: 25px;
+}
+.footer .footer-content .col-lg-3:not(:last-child) i{
+    margin-right: 15px;
+    color: #8bc34a;
+}
+.footer .social-icon{
+    margin-bottom: 40px;
+}
+.footer .social-icon a + a{
+    margin-top: 0;
+}
+.footer .sign-up{
+    font-size: 20px;
+    color: #fff;
+}
+.footer .email-adresss-form{
+    background-color: #2f3c43;
+}
+.footer .copyright{
+    padding-top: 25px;
+    padding-bottom: 35px; 
+}
+
+/* ========== FOOTER ========== */
