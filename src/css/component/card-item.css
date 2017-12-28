@@ -1,9 +1,9 @@
 /* ========== card ========== */
-/* .item - основная карточка, идут по 4 в ряд
-   .item.horizontal-item - горизонтальная карточка, которая тянется на всю ширину блока
-   .item.standart-item - стандартная катрочка, идут по 3 в ряд,  разворачивается в горизонтальную
-   .item.small-item - маленькая карточка
-   .item.small-horizontal-item - маленька горизонтальная карточка*/
+/*  .item - основная карточка, идут по 4 в ряд
+    .item.horizontal-item - горизонтальная карточка, которая тянется на всю ширину блока
+    .item.standart-item - стандартная катрочка, идут по 3 в ряд,  разворачивается в горизонтальную
+    .item.small-item - маленькая карточка
+    .item.small-horizontal-item - маленька горизонтальная карточка*/
 .item .item-author .item-author-comments,
 .item .item-description .item-info .item-info-price .item-info-sales,
 .item .item-description .item-info .item-info-text,
@@ -87,7 +87,7 @@
     padding: 25px 20px 20px 0;
 }
 .item.small-item .item-description .item-info-price{
-    padding: 20px 0px 10px 0;
+    padding: 20px 0 10px 0;
 }
 .item.small-horizontal-item .item-description .item-info-price{
     padding: 10px 20px 10px 20px;

@@ -1,0 +1,38 @@
+/*------DEFAULT CLASSES START------*/
+.bg-white{
+    background-color: #fff;
+}
+.bg-dark{
+    background-color: #263238;
+}
+.bg-light-grey{
+    background-color: #f4f6f5;
+}
+.bg-green{
+    background-color: #8bc34a;
+}
+.bg-red{
+    background-color: #e74c3c;
+}
+.bg-yellow{
+    background-color:#fcb322;
+}
+.bg-orange{
+    background-color:#ef6c00;
+}
+.text-white{
+    color:#fff;
+}
+.text-dark{
+    color: #263238;
+}
+.text-red{
+    color: #e74c3c;
+}
+.text-green{
+    color:#8bc34a;
+}
+.text-blue{
+    color:#546e7a;
+}
+/*------DEFAULT CLASSES END------*/
