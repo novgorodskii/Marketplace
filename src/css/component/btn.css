@@ -1,16 +1,12 @@
 
-body{
-    background: #bce1f8;
-}
-.btn-row{
-    padding: 20px;
-}
-div.pagination{
-    padding: 20px;
-}
+
+
 
 /* BUTTONS START */
 
+.btn-row{
+    padding: 20px;
+}
 .btn{
     display: inline-block;
     width: 225px;
@@ -288,6 +284,9 @@ i.fa.fa-envelope-o{
 .pagination a:focus:not{
     background: #e74c3c;
     color: #fff;
+}
+div.pagination{
+    padding: 20px;
 }
 
 /* PAGINATION END */

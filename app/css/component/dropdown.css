@@ -1,4 +1,4 @@
-/* ========== dropdown ========== */
+/* ===== dropdown ===== */
 
 .dropdown-container{
     position: relative;
@@ -16,7 +16,7 @@
 .dropdown-container:hover .dropdown-menu{
     display: block;
 }
-/* ========== dropdown end ========== */
+/* ===== dropdown end ===== */
 
 /* ===== header dropdawn  ===== */
 .top-header .user-controls .dropdown-menu{
@@ -75,7 +75,7 @@
     font-weight: bold;
     color: #263238;
 }
-/* === dropdown user === */
+/* ===== dropdown user ===== */
 
 .top-header .user-controls .dropdown-user {
     padding: 25px 20px;
@@ -93,11 +93,11 @@
     font-size: 12px;
     color: #546e7a;
 }
-/* === dropdown user end === */
+/* ===== dropdown user end ===== */
 
 /* ===== header dropdawn end  ===== */
 
-/* === dropdown-categories === */
+/* ===== dropdown-categories ===== */
 
 .dropdown-menu .dropdown-categories {
     padding: 25px 40px 30px 35px;
@@ -112,17 +112,17 @@
     font-size: 14px;
 }
 
-/* === dropdown-categories end === */
+/* ===== dropdown-categories end ===== */
 
-/* ======== color ======== */
+/* ===== color ===== */
 
 .color-green{
     color: #84b743;
 }
 
-/* ======== color end ======== */
+/* ===== color end ===== */
 
-/* === btn === */
+/* ===== btn dropdown ===== */
 
 .btn{
     padding: 12px;
@@ -145,4 +145,4 @@
 .btn-cart{
     margin-top: 17px;
 }
-/* === btn end === */
+/* ===== btn dropdown end ===== */

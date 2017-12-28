@@ -1,3 +1,5 @@
+/* ===== form ===== */
+
 .inner-form{
     text-align: center;
 }
@@ -116,3 +118,5 @@ input:-ms-input-placeholder{
 .login .lost-password{
     font-size: 18px;
 }
+
+/* ===== form end ===== */

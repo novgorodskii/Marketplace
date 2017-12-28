@@ -1,21 +1,17 @@
-.white-bg{
-    background-color: #fff;
-}
-.border-grey{
-    border: 1px solid #dedede;
-}
 
 
-/* ========== icon ========== */
+/* ===== icon ===== */
+
 .icon{
     display: inline-block;
-}
-/* ========== icon end ========== */
 
-/* ========== carusel-item ========== */
+}
+/* ===== icon end ===== */
+
+/* ===== carusel-item ===== */
 
 .item-carousel{
     width: 25%;
     margin: 10px; 
 }
-/* ========== carusel-item end ========== */
+/* ===== carusel-item end ===== */

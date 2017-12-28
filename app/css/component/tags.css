@@ -2,7 +2,7 @@ body{
     padding: 25px 0;
 }
 
-/* ==== TAGS ==== */
+/* ===== TAGS ===== */
 
 .tags{
     -webkit-box-pack: center;
@@ -26,4 +26,4 @@ ul.tags li a:hover{
     box-shadow: 0 2px 5px 0 rgba(202, 215, 228, 0.75);
 }
 
-/* ==== TAGS END ==== */
+/* ===== TAGS END ===== */

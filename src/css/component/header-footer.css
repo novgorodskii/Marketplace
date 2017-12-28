@@ -1,4 +1,5 @@
-/* ========== bg ========== */
+/* ===== bg ===== */
+
 .bg-orange{
     background-color: #ef6c00;
 }
@@ -8,10 +9,13 @@
 .bg-green{
     background-color: #95c85a;
 }
-/* ========== bg end ========== */
 
-/* ========== btn end ========== */
+/* ===== bg end ===== */
+
+/* ===== btn end ===== */
+
 /* Временная кнопка */
+
 .header-btn{
     width: 72px;
     height: 32px;
@@ -19,8 +23,11 @@
     color: #fff;
     border-radius: 5px;
 }
-/* ========== btn end ========== */
-/* ========== HEADER START ========== */
+
+/* ===== btn end ===== */
+
+/* ===== HEADER START ===== */
+
 .header{
     background: #ffffff;
 }
@@ -83,9 +90,10 @@
 .header .bottom-header a + a{
     margin-left: 40px;
 }
-/* ========== HEADER END ========== */
 
-/* ========== FOOTER END ========== */
+/* ===== HEADER END ===== */
+
+/* ===== FOOTER END ===== */
 
 .footer{
     margin-top: 100px;
@@ -150,4 +158,4 @@
     padding-bottom: 35px; 
 }
 
-/* ========== FOOTER ========== */
+/* ===== FOOTER ===== */
