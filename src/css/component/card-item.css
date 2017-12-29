@@ -4,6 +4,9 @@
     .item.standart-item - стандартная катрочка, идут по 3 в ряд,  разворачивается в горизонтальную
     .item.small-item - маленькая карточка
     .item.small-horizontal-item - маленька горизонтальная карточка*/
+.item-description{
+    background-color: #fff;
+}
 .item .item-author .item-author-comments,
 .item .item-description .item-info .item-info-price .item-info-sales,
 .item .item-description .item-info .item-info-text,

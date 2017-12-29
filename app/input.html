@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="css/component/dropdown.css">
     <link rel="stylesheet" href="css/component/card-item.css">
     <link rel="stylesheet" href="css/component/input.css">
+    <link rel="stylesheet" href="css/component/text.css">
 
 </head>
 <body>
@@ -46,33 +47,47 @@
     </form>
 </div>
 <div class="container">
-    <form action="" class="form" >
-        <div class="form-row d-flex justify-content-between align-items-center">
-            <span class="form-text">Select Categories <span>*</span></span>
-            <select name="" class="input">
-                <option>Select</option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-            </select>
+    <div class="upload-product">
+        <div class="title medium-size-title text-medium d-flex align-items-center">
+            <span>Upload Your item</span>
         </div>
-        <div class="form-row d-flex justify-content-between align-items-center">
-            <span class="form-text">Product Name <span class="form-star">*</span></span>
-            <input type="text" class="input" placeholder="Enter your product name here ...">
-        </div>
-        <div class="form-row d-flex justify-content-between align-items-start">
-            <span class="form-text">Product Name <span class="form-star">*</span></span>
-            <textarea name="" class="input textarea" placeholder="&lt;h1&gt; Type your text  here &lt;/h1/&gt;"></textarea>
-        </div>
-        <div class="form-row d-flex justify-content-between align-items-center">
-            <span class="form-text">Product Name <span class="form-star">*</span></span>
-            <input type="file" class="input file" placeholder="Enter your product name here ...">
-        </div>
-        <div class="form-row d-flex justify-content-between align-items-center">
-            <span class="form-text">Product Name <span class="form-star">*</span></span>
-            <input type="file" class="input file" placeholder="Enter your product name here ...">
-        </div>
-    </form>
+        <form action="" class="form">
+
+            <!-- text-input -->
+            <div class="form-row d-flex justify-content-between align-items-center">
+                <span class="form-text">Product Name <span class="form-star">*</span></span>
+                <input type="text" class="input" placeholder="Enter your product name here ...">
+            </div>
+            <!-- text-input -->
+            
+            <!-- text-area -->
+            <div class="form-row d-flex justify-content-between align-items-start">
+                <span class="form-text">Product Description <span class="form-star">*</span></span>
+                <textarea name="" class="input textarea" placeholder="&lt;h1&gt; Type your text  here &lt;/h1/&gt;"></textarea>
+            </div>
+            <!-- text-area -->
+
+            <!-- upload-input -->
+            <div class="form-row d-flex justify-content-between align-items-center">
+                <span class="form-text">Upload Main File <span class="form-star">*</span></span>
+                <input type="file" class="input file">
+            </div>
+            <!-- upload-input -->
+
+            <!-- upload-input -->
+            <div class="form-row d-flex justify-content-between align-items-center">
+                <span class="form-text">Upload Screenshots <span class="form-star">*</span></span>
+                <input type="file" class="input file">
+            </div>
+            <!-- upload-input -->
+
+            <div class="form-row d-flex justify-content-between align-items-center">
+                <span class="form-text">File Dimensions <span class="form-star">*</span></span>
+                <input type="text" class="input" placeholder="Enter the item  dimentionss here ...">
+            </div>
+        </form>
+    </div>
+    
 </div>
 
 <!-- LOGIN START -->
@@ -86,8 +101,6 @@
             <div class="login-input">
                 <i class="fa fa-user" aria-hidden="true"></i>
                 <input type="text" class="login-name-input" placeholder="Name">
-
-
             </div>
             <div class="login-input">
                 <i class="fa fa-lock" aria-hidden="true"></i>
