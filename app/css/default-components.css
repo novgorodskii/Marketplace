@@ -807,13 +807,16 @@ div.pagination{
 .header .top-header{
     padding: 27px 0;
 }
-.header .top-header .auth-controls .auth-controls-help{
+.header .top-header .auth-controls p > span{
     color: #e74c3c;
     margin-right: 4px;
 }
 .header .top-header .auth-controls .notification{
     margin-left: 30px;
     margin-right: 20px;
+}
+.header .top-header .notification-content .notification-item-icon a > i{
+    padding-right: 0;
 }
 .header .top-header .notification-content .notification-item-icon a{
     color: #a0a0a0;
@@ -859,6 +862,9 @@ div.pagination{
 }
 .header .bottom-header a{
     color: #fff;
+}
+.header .bottom-header a:hover{
+    opacity: .8;
 }
 .header .bottom-header a + a{
     margin-left: 40px;
@@ -975,6 +981,7 @@ div.pagination{
 .form-row .form-text{
 }
 .login{
+    display: none;
     width: 730px;
     height: 485px;
     position: fixed;
