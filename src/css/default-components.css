@@ -157,18 +157,6 @@ ul.breadcrumb li a{
 
 /* =====  04_all new items end ===== */
 
-/* ===== Font Awesome  ===== */
-
-/* i.fa.fa-search,
-i.fa.fa-shopping-cart,
-i.fa.fa-heart-o,
-i.fa.fa-pencil-square-o,
-i.fa.fa-envelope-o{
-    padding-right: 9px;
-} */
-
-/* ===== Font Awesome end ===== */
-
 /* ===== 08_category brows ===== */
 
 .btn.btn-cart,
@@ -918,6 +906,9 @@ div.pagination{
 }
 .footer .social-icon a + a{
     margin-top: 0;
+}
+.footer .social-icon a:last-child {
+    border-radius: 2px;
 }
 .footer .sign-up{
     font-size: 20px;
