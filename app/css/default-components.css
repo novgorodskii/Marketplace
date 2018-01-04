@@ -160,13 +160,13 @@ ul.breadcrumb li a{
 
 /* ===== Font Awesome  ===== */
 
-i.fa.fa-search,
+/* i.fa.fa-search,
 i.fa.fa-shopping-cart,
 i.fa.fa-heart-o,
 i.fa.fa-pencil-square-o,
 i.fa.fa-envelope-o{
     padding-right: 9px;
-}
+} */
 
 /* ===== Font Awesome end ===== */
 
@@ -862,7 +862,10 @@ div.pagination{
 .header .bottom-header a{
     color: #fff;
 }
-.header .bottom-header a + a{
+.header .bottom-header a:hover{
+    opacity: .8;
+}
+.header .bottom-header .menu-nav a + a{
     margin-left: 40px;
 }
 
@@ -890,7 +893,7 @@ div.pagination{
     margin-bottom: 32px;
     margin-top: 28px;
     width: 51px;
-    border-top:  3px solid #8bc34a;
+    border-top: 3px solid #8bc34a;
 }
 .footer .contact-company{
     margin-top: 35px;
