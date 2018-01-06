@@ -3,13 +3,38 @@
 .sort-controls-container{
     padding: 20px;
 }
+.sort-controls-container .sort-by{
+    font-size: 14px;
+}
+.sort-controls-container .sort-by i{
+    color: #455a64;
+}
+.all-items-page-container .aside-section-list{
+    margin-top: 27px;
+}
+.all-items-page-container .aside-section-list li + li{
+    margin-top: 25px;
+}
+.all-items-page-container .aside-section-list i{
+    font-size: 14px;
+    color: #8bc34a;
+    margin-right: 10px;
+}
+.all-items-page-container .aside-section-list a{
+    color: #263238;
+}
+.all-items-page-container .aside-section-list a span{
+    color: #90a4ae;
+    float: right;
+}
 /* ===== all items page ===== */
 
 /* ===== product details page ===== */
 
-.product-fuul-img{
+.product-full-img{
     padding: 20px;
     background-color: #ffffff;
 }
 
 /* ===== product details page ===== */
+

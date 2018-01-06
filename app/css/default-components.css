@@ -154,6 +154,7 @@ ul.breadcrumb li a{
     padding: 16px 0;
     font-weight: 500;
     font-size: 15px;
+    margin-top: 20px;
 }
 
 /* =====  04_all new items end ===== */
@@ -324,7 +325,7 @@ ul.breadcrumb li a{
     color: #fff;
 }
 div.pagination{
-    padding: 20px;
+    padding: 60px 0 0 0;
 }
 
 /* ===== PAGINATION END ===== */
@@ -335,6 +336,7 @@ div.pagination{
 .card .card-img{
     border: 1px solid #ebeeef;
     border-bottom: none;
+    -webkit-box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
     box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
 }
 .card .card-img img{
@@ -344,10 +346,12 @@ div.pagination{
     background-color: #fff;
     border: 1px solid #ebeeef;
     border-top: none;
+    -webkit-box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
     box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
 }
 .card:hover .card-img,
 .card:hover .card-description-wrapper{
+    -webkit-box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);
     box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);
 }
 .card .card-description .title{
@@ -399,6 +403,7 @@ div.pagination{
 .card .card-author-info .product-download::after{
     content: ")";
 }
+
 .card.large-card .card-description{
     padding: 25px 30px 15px;
 }
@@ -409,6 +414,7 @@ div.pagination{
 .card.large-card .card-author-info{
     padding: 20px 30px;
 }
+
 .card.medium-card .card-description{
     padding: 25px 20px 20px;
 }
@@ -419,8 +425,11 @@ div.pagination{
 .card.medium-card .card-author-info{
     padding: 16px 20px;
 }
+
 .card.row-card{
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .card.row-card .card-img,
@@ -432,8 +441,15 @@ div.pagination{
     height: 180px;
 }
 .card.row-card .card-description-wrapper{
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
     flex-grow: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 .card.row-card .card-description{
@@ -448,12 +464,16 @@ div.pagination{
 }
 .card.row-card .card-description-wrapper .card-text-info,
 .card.row-card .card-author-info .comment-heart{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .card.row-card .card-description-wrapper .card-text-info{
     margin-top: 20px;
 }
 .card.row-card .card-author-info .comment-heart{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-left: 30px;
 }
@@ -472,6 +492,70 @@ div.pagination{
     height: 11px;
     border-left: 1px solid #a0a8ad;
     margin-right: 17px;
+}
+
+.card.small-card .card-img{
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.card.small-card .card-description-wrapper{
+    border-left: none;
+    border-right: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.card.small-card .card-description{
+    padding-top: 20px;
+    padding-bottom: 18px;
+}
+.card.small-card .card-description .title{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.card.small-card .card-description .price{
+    font-size: 16px;
+    display: inline-block;
+    padding-top: 8px;
+}
+.card.small-card .card-author-info{
+    border: none;
+    padding-bottom: 28px;
+}
+.card.small-card .card-author-info .product-rating{
+    margin-right: 0;
+}
+
+.card.small-row-card{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.card .card-img{
+    border: none;
+    border-bottom: 1px solid #ebeeef;
+}
+.card.small-row-card .card-description-wrapper{
+    padding: 17px 15px 8px 20px;
+    border: none;
+    border-bottom: 1px solid #ebeeef;
+}
+.card.small-row-card .card-description .item-info{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.card.small-row-card .card-description .title{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.card.small-row-card .card-description .subtitle{
+    font-size: 12px;
+}
+.card.small-row-card .card-description .price{
+    font-size: 18px;
+    margin-top: 10px;
 }
 /* ===== card  ===== */
 
