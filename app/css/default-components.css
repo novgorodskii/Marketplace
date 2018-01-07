@@ -566,11 +566,18 @@ div.pagination{
 .bg-orange{
     background-color:#ef6c00;
 }
+.bg-img-gray{    /*alena added*/
+    background: url(../img/bg-gray-img.jpg) no-repeat center/cover;
+    filter: grayscale(100%);
+}
 .text-white{
     color:#fff;
 }
 .text-dark{
     color: #263238;
+}
+.text-dark-gray{        /*alena added*/
+    color: #444;
 }
 .text-red{
     color: #e74c3c;
@@ -609,6 +616,12 @@ div.pagination{
 }
 .default-smaller-section{
     padding:80px 0;
+}
+.inner-wrapper{              /*alena added*/
+    padding: 60px 0 70px;
+}
+.inner-wrapper .title{      /*alena added*/
+    margin-bottom: 20px;
 }
 /* ===== DEFAULT SECTION END ===== */
 
@@ -984,6 +997,11 @@ div.pagination{
     color: #707070;
     outline-color: #acb0b3;
 }
+.form-row .input.input-small
+{
+    max-width:540px;
+    border: 1px solid #dcdcdc;
+} 
 .form-row .input.textarea{
     height: 150px;
 }
@@ -1336,6 +1354,10 @@ ul.tags li a:hover{
 .title.medium-size-title{
     font-size: 24px;
 }
+.subtitle{                       /*alena added*/
+    font-size: 20px;
+    line-height: 1.2;
+}
 .text-regular{
     font-weight: 400;
 }
@@ -1353,5 +1375,20 @@ ul.tags li a:hover{
     color: #707070;
     font-weight: 400;
 }
+.text-center{                   /*alena added*/
+    text-align: center;
+}
 
 /* ===== text end ===== */
+
+/*====== icons ======== */
+.fa-search{                     /*alena added*/
+    position: absolute;
+    top: 50%;
+    right: 22%;
+    transform: translate(-50%,-50%);
+    color: #90a4ae;
+    font-size:20px;
+}
+
+/*====== icons end======== */
