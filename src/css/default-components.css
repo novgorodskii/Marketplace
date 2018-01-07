@@ -408,6 +408,13 @@ i.fa.fa-envelope-o.icon-btn{
     margin-top: 20px;
 }
 
+.card-items-slider .large-card .card-img a{
+    height: 250px;
+}
+.card-items-slider .large-card {
+    margin: 15px;
+}
+
 /* ===== CARDS END ===== */
 
 /* === slick-dots === */
