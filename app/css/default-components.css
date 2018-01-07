@@ -1294,6 +1294,11 @@ ul.tags > li > a:focus{
 
 /* ===== text ===== */
 
+.title-medium{
+    font-size: 30px;
+    letter-spacing: .2em;
+}
+
 .title{
     font-size: 36px;
     color: #263238;
