@@ -282,8 +282,8 @@ i.fa.fa-envelope-o.icon-btn{
     background: #e74c3c;
     color: #fff;
 }
-div.pagination{
-    padding: 20px 0 0 0;
+.pagination{
+    padding: 60px 0 0 0;
 }
 
 /* ===== PAGINATION END ===== */
@@ -294,10 +294,10 @@ div.pagination{
     padding: 50px 0;
 }
 .card .card-img{
-    border: 1px solid #ebeeef; 
+    border: 1px solid #ebeeef;
     border-bottom: none;
-    -webkit-box-shadow: 0 1px 2px rgba(205, 214, 222, .75);
-    box-shadow: 0 1px 2px rgba(205, 214, 222, .75);
+    -webkit-box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
+    box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
 }
 .card .card-img img{
     width: 100%;
@@ -306,29 +306,30 @@ div.pagination{
     background-color: #fff;
     border: 1px solid #ebeeef;
     border-top: none;
-    -webkit-box-shadow: 0 1px 2px rgba(205, 214, 222, .75);
-    box-shadow: 0 1px 2px rgba(205, 214, 222, .75);
+    -webkit-box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
+    box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
 }
 .card:hover .card-img,
 .card:hover .card-description-wrapper{
-    -webkit-box-shadow: 0 16px 20px rgba(216, 216, 216, .75);
-    box-shadow: 0 16px 20px rgba(216, 216, 216, .75);
+    -webkit-box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);
+    box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);
 }
-.card .card-description-wrapper .title-card{
+.card .card-description .title{
     color: #263238;
     font-weight: 500;
 }
-.card .card-description-wrapper .subtitle-card{
+.card .card-description .subtitle{
     color: #8bc34a;
     font-weight: 500;
     font-size: 14px;
 }
-.card .card-description-wrapper .price{
+.card .card-description .price{
     color: #263238;
     font-weight: 700;
     font-size: 20px;
 }
-.card .card-description-wrapper .card-text-info{
+.card .card-description-wrapper .card-text-info,
+.card .card-author-info .comment-heart{
     display: none;
 }
 .card .card-author-info{
@@ -353,19 +354,22 @@ div.pagination{
 .card .card-author-info .product-rating li + li{
     margin-left: 3px;
 }
+.card .card-author-info .product-download{
+    font-size: 12px;
+}
 .card .card-author-info .product-download::before,
 .card .card-author-info .product-download::after{
     color: #b0bec5;
-    content: '(';
+    content: "(";
 }
 .card .card-author-info .product-download::after{
-    content: ')';
+    content: ")";
 }
 
 .card.large-card .card-description{
     padding: 25px 30px 15px;
 }
-.card.large-card .card-description .title-card{
+.card.large-card .card-description .title{
     font-size: 18px;
     margin-bottom: 5px;
 }
@@ -376,7 +380,7 @@ div.pagination{
 .card.medium-card .card-description{
     padding: 25px 20px 20px;
 }
-.card.medium-card .card-description .title-card{
+.card.medium-card .card-description .title{
     font-size: 16px;
     margin-bottom: 10px;
 }
@@ -392,7 +396,7 @@ div.pagination{
 }
 .card.row-card .card-img,
 .card.row-card .card-description-wrapper{
-    border: none;   
+    border: none;
 }
 .card.row-card .card-img img{
     width: 240px;
@@ -420,11 +424,36 @@ div.pagination{
     padding: 15px 30px;
     margin-top: auto;
 }
-.card.row-card .card-description-wrapper .card-text-info{
+.card.row-card .card-description-wrapper .card-text-info,
+.card.row-card .card-author-info .comment-heart{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+}
+.card.row-card .card-description-wrapper .card-text-info{
     margin-top: 20px;
+}
+.card.row-card .card-author-info .comment-heart{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.card.row-card .card-author-info .comment-heart .fa{
+    color: #8bc34a;
+    font-size: 16px;
+    margin-right: 12px;
+}
+.card.row-card .card-author-info .comment-heart .heart{
+    margin-left: 35px;
+}
+.card.row-card .card-author-info .comment-heart .comment::before,
+.card.row-card .card-author-info .comment-heart .heart::before{
+    content: "";
+    display: inline-block;
+    height: 11px;
+    border-left: 1px solid #a0a8ad;
+    margin-right: 17px;
 }
 
 .card.small-card .card-img{
@@ -464,7 +493,7 @@ div.pagination{
     display: -ms-flexbox;
     display: flex;
 }
-.card .card-img{
+.card-small-row-card .card-img{
     border: none;
     border-bottom: 1px solid #ebeeef;
 }
