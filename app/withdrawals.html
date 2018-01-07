@@ -270,132 +270,126 @@
     <div class="container">
         <ul class="breadcrumb">
             <li><a href="#">Home</a></li>
-            <li class="active">Sales Statement</li>
+            <li class="active">Withdrawals</li>
         </ul>
         <!-- / Breadcrumb -->
     </div>
-    <div class="sales-statement">
-        <div class="container bg-white">
-            <div class="row">
-                <div class="your-sales d-flex justify-content-between">
-                    <div class="title medium-size-title text-medium">Your Sales Statement</div>
-                    <div class="date-form">
-                        <form action="" class="d-flex align-items-center">
-                            <div class="date">
-                                <label for="" class="fa fa-calendar"></label>
-                                <input type="date" name="" id="" min="20/11/2016">
+    <div class="withdrawals">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-md-6">
+                    <div class="earnings bg-white">
+                        <div class="title medium-size-title text-medium">
+                        Withdrawals Earnings
+                    </div>
+                    <div class="earnings-form">
+                        <form action="" class="form">
+                            <div class="form-row">
+                                <span class="form-text text-medium">Amount to Withdraw ($2000.00 Maximum) <span class="form-star">*</span></span>
+                                <input type="text" class="input" placeholder="Enter the amount you want to withdraw...">   
                             </div>
-                            <span>To</span>
-                            <div class="date">
-                                <label for="" class="fa fa-calendar"></label>
-                                <input type="date" name="" id="" data-ng-pluralize="">
+                            <!-- / input -->
+                            <div class="form-row">
+                                <span class="form-text text-medium">Choose your Withdraw Method <span class="form-star">*</span></span>
+                                <div class="jq-selectbox jqselect" style="z-index: 10;">
+                                    <select name="select-country" id="">
+                                        <option value="usa">Select your card</option>
+                                        <option value="mongolia">Mongolia</option>
+                                    </select>
+                                    <div class="jq-selectbox__dropdown" style="height: auto; top: auto; bottom: 40px; display: none;">
+                                        <ul style="max-height: 493px;">
+                                            <li class="selected sel" style="">USA</li>
+                                            <li style="">Mongolia</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                            <a href="" class="btn btn-your-sales-find btn-xs btn-green text-white">Find</a>
+                            <!-- / select  -->
+                            <div class="form-row">
+                                <span class="form-text text-medium">Your Account Name <span class="form-star">*</span></span>
+                                <div class="jq-selectbox jqselect" style="z-index: 10;">
+                                    <select name="select-country" id="">
+                                        <option value="usa">Select your card</option>
+                                        <option value="mongolia">Mongolia</option>
+                                    </select>
+                                    <div class="jq-selectbox__dropdown" style="height: auto; top: auto; bottom: 40px; display: none;">
+                                        <ul style="max-height: 493px;">
+                                            <li class="selected sel" style="">USA</li>
+                                            <li style="">Mongolia</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- / select  -->
+                            <div class="form-row">
+                                <span class="form-text text-medium">Confirm your password <span class="form-star">*</span></span>
+                                <input type="text" class="input" placeholder="Enter the amount you want to withdraw...">   
+                            </div>
+                            <!-- / input -->
+                            <a href="" class="btn btn-mid btn-aside btn-green btn-medium text-white">Request Withdrawal</a>
                         </form>
                     </div>
                 </div>
-            <!-- / your-sales -->
-
-                <div class="your-sales-table">
-                    <table class="table table-sales">
-                        <thead class="text-white thead-fonts">
-                            <tr>
-                                <th>#</th>
-                                <th>Avatar</th>
-                                <th>ID</th>
-                                <th>Full Name</th>
-                                <th>Purchase</th>
-                                <th>Price</th>
-                                <th>Downloads</th>
-                            </tr>
-                        </thead>
-                        <tbody class="tbody-fonts">
-                            <tr>
-                                <td>1.</td>
-                                <td>
-                                    <img src="img/avatar_1.png" alt="avatar">
-                                </td>
-                                <td>#2050</td>
-                                <td>Jessy Sket</td>
-                                <td>15</td>
-                                <td>$200</td>
-                                <td>15</td>
-                            </tr>
-                            <tr>
-                                <td>2.</td>
-                                <td>
-                                    <img src="img/avatar_1.png" alt="avatar">
-                                </td>
-                                <td>#2051</td>
-                                <td>Robert Smith</td>
-                                <td>10</td>
-                                <td>$180</td>
-                                <td>20</td>
-                            </tr>
-                            <tr>
-                                <td>3.</td>
-                                <td>
-                                    <img src="img/avatar_1.png" alt="avatar">
-                                </td>
-                                <td>#2053</td>
-                                <td>Ziniza</td>
-                                <td>20</td>
-                                <td>$1,200</td>
-                                <td>20</td>
-                            </tr>
-                            <tr>
-                                <td>4.</td>
-                                <td>
-                                    <img src="img/avatar_1.png" alt="avatar">
-                                </td>
-                                <td>#2053</td>
-                                <td>David Rock</td>
-                                <td>10</td>
-                                <td>$300</td>
-                                <td>10</td>
-                            </tr>
-                            <tr>
-                                <td>5.</td>
-                                <td>
-                                    <img src="img/avatar_1.png" alt="avatar">
-                                </td>
-                                <td>#2054</td>
-                                <td>Jessy Sket</td>
-                                <td>15</td>
-                                <td>$800</td>
-                                <td>20</td>
-                            </tr>
-                            <tr>
-                                <td>6.</td>
-                                <td>
-                                    <img src="img/avatar_1.png" alt="avatar">
-                                </td>
-                                <td>#2055</td>
-                                <td>Neo Buler</td>
-                                <td>12</td>
-                                <td>$600</td>
-                                <td>05</td>
-                            </tr>
-                            <tr>
-                                <td>7.</td>
-                                <td>
-                                    <img src="img/avatar_1.png" alt="avatar">
-                                </td>
-                                <td>#2056</td>
-                                <td>Liana Richards</td>
-                                <td>02</td>
-                                <td>$200</td>
-                                <td>01</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div class="title">Total Sales: <span class="text-bold">$ 5,030</span></div>
                 </div>
-                <!-- / your-sales-table -->
+                <div class="col-md-6">
+                    <div class="history bg-white">
+                        <div class="title medium-size-title medium-text">
+                            Withdrawal History
+                        </div>
+                        <div class="history-table">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Dec 26th, 2016</td>
+                                        <td>Psdboss@paypal.com</td>
+                                        <td>200$</td>
+                                        <td>Pending</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dec 26th, 2016</td>
+                                        <td>Psdboss@paypal.com</td>
+                                        <td>200$</td>
+                                        <td>Paid</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dec 26th, 2016</td>
+                                        <td>Psdboss@paypal.com</td>
+                                        <td>200$</td>
+                                        <td>Paid</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dec 26th, 2016</td>
+                                        <td>Psdboss@paypal.com</td>
+                                        <td>200$</td>
+                                        <td>Paid</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dec 26th, 2016</td>
+                                        <td>Psdboss@paypal.com</td>
+                                        <td>200$</td>
+                                        <td>Paid</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dec 26th, 2016</td>
+                                        <td>Psdboss@paypal.com</td>
+                                        <td>200$</td>
+                                        <td>Paid</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dec 26th, 2016</td>
+                                        <td>Psdboss@paypal.com</td>
+                                        <td>200$</td>
+                                        <td>Paid</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                                
             </div>
-                 
         </div>
-    </div>
+    </div>   
 </main>
 <!-- MAIN END -->
 <!-- FOOTER -->

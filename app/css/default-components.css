@@ -963,10 +963,10 @@ i.fa.fa-envelope-o.icon-btn{
     padding-right: 48px;
     margin-bottom: 20px;
 }
-.upload-product .form .form-text{
+.upload-product .form-row .form-text{
     color: #444;
 }
-.upload-product .form .form-text .form-star{
+.form-row .form-text .form-star{
     font-size: 24px;
     color: #8bc34a;
 }
