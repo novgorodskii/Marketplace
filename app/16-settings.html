@@ -7,8 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Title</title>
 
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
 
     <!-- Slick slider style -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
@@ -33,17 +36,15 @@
     <!-- Default Components -->
     <link rel="stylesheet" href="css/default-components.css">
 
-    <!-- 25 About-Us  -->
-    <link rel="stylesheet" href="css/25-about-us.css">
-
-    <!-- 16 Settings  -->
-    <link rel="stylesheet" href="css/16-settings.css">
+    <!-- Custom-style  -->
+    <link rel="stylesheet" href="css/style.css">
 
 
 
 </head>
 
 <body>
+    <!-- HEADER -->
     <header class="header">
         <section class="top-header">
             <div class="container">
@@ -55,8 +56,7 @@
                     </div>
                     <!-- logo -->
                     <div class="auth-controls d-flex flex-row align-items-center">
-                        <p>
-                            <span class="auth-controls-help">Need help?</span>to an expert: +61 3 8376 6284</p>
+                        <p><span class="auth-controls-help">Need help?</span>to an expert: +61 3 8376 6284</p>
                         <ul class="notification d-flex flex-row">
                             <li class="dropdown-container">
                                 <div class="notification-content d-flex align-items-center">
@@ -70,6 +70,7 @@
                                     </div>
                                 </div>
                                 <!-- / notification-item -->
+
                                 <div class="dropdown-menu">
                                     <div class="d-flex notifications-item justify-content-between">
                                         <img src="img/notification.png" alt="" class="circle-img">
@@ -119,6 +120,7 @@
                                     </div>
                                 </div>
                                 <!-- / notification-item -->
+
                                 <div class="dropdown-menu">
                                     <div class="d-flex notifications-item justify-content-between">
                                         <img src="img/notification.png" alt="" class="circle-img">
@@ -171,6 +173,7 @@
                                     </div>
                                 </div>
                                 <!-- / notification-item -->
+
                                 <div class="dropdown-menu">
                                     <div class="d-flex notifications-item justify-content-between">
                                         <img src="img/notification-rectangular.png" alt="" class="rectangular-img">
@@ -195,8 +198,8 @@
                                             <span>$118</span>
                                         </div>
                                         <div class="btn-cart d-flex flex-row ">
-                                            <a class="btn btn-bg-green">Go to Cart</a>
-                                            <a class="btn btn-bg-red">Go to Checkout</a>
+                                            <a class="btn btn-small btn-light-green btn-go-to-cart btn-bold text-off-white">Go to Cart</a>
+                                            <a class="btn btn-less-than-average btn-light-green btn-bold text-off-white">Go to Checkout</a>
                                         </div>
                                     </div>
                                 </div>
@@ -253,7 +256,7 @@
                             </div>
                         </div>
                         <!-- / user-controls -->
-                        <div class="header-btn d-flex justify-content-center align-items-center">
+                        <div class="btn btn-registry btn-green text-white d-flex justify-content-center align-items-center">
                             <a href="">Logout</a>
                         </div>
                     </div>
@@ -266,6 +269,7 @@
         <section class="bottom-header">
             <div class="container">
                 <nav class="menu-nav">
+                    <a href="#">Home</a>
                     <a href="#">About</a>
                     <a href="#">WordPress</a>
                     <a href="#">Joomla</a>
@@ -281,7 +285,8 @@
         </section>
         <!-- / header-menu -->
     </header>
-    <!-- / header -->
+    <!-- HEADER END -->
+
     <!-- 16 SETTINGS  -->
     <main class="settings">
         <div class="inner-area bg-img-gray">

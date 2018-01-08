@@ -326,4 +326,104 @@
 .withdrawals .history-table .table tbody tr:nth-child(1) td:nth-child(4){
     color: #444;
 }
+
 /* ===== WITHDRAWALS END ===== */
+
+/* ===== 16_Settings ===== */
+
+.settings-form{
+    position: relative;
+}
+.settings-title{
+    border: 1px solid #d7d7d7;
+}
+.settings-title li{
+    border-bottom: 1px solid #d7d7d7;
+}
+.settings-title li:last-child{
+    border-bottom: none;
+}
+.settings-title li a{
+    display: block;
+    padding: 19px 14px 15px 49px;
+    position: relative;
+    font-size: 14px;
+}
+.settings-title li a:before{
+    content: "\f105";
+    font-family: FontAwesome;
+    font-size:14px;
+    color: #444444;
+    position: absolute;
+    left:25px;
+    -webkit-transform:translateX(-50%);
+    transform:translateX(-50%);
+    z-index: 99;
+}
+.settings-title .active a{
+    color: #37474f;
+}
+.settings-title .active a:before {
+    color: #8bc34a;
+ }
+.settings-title .active a:after {
+    background: #8bc34a;
+    content: "";
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.settings-forms{
+    border: 1px solid #d7d7d7;
+}
+.settings-forms .title{
+    border-bottom: 1px solid #d7d7d7;
+    padding: 20px 33px 15px 33px;
+}
+.settings-forms .form{
+    margin-top: 33px;
+}
+.settings-forms .btn-row{
+    padding-left: 257px;
+    padding-bottom: 80px;
+}
+.select{
+    max-width: 540px;
+}
+
+/* ===== 16_Settings end ===== */
+
+/* ===== 25_About us ===== */
+
+.about-us-form{
+    position: relative;
+}
+.about-us-title .title{
+    border: 1px solid #d7d7d7;
+    padding: 21px 32px 25px 32px;
+    border-bottom: none;
+}
+.about-us-text{
+    border: 1px solid #d7d7d7;
+    padding-left: 49px;
+    padding-right: 65px;
+    padding-bottom: 43px;
+}
+.about-us-page{
+    min-height: 655px;
+}
+.about-us-text-row{
+    padding-top: 44px;
+}
+.about-us-text-row p{
+    padding-top: 23px;
+    padding-bottom: 10px;
+    line-height: 1.6;
+    color:#707070;
+} 
+/* ===== 25_About us end ===== */
