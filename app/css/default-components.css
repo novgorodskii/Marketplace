@@ -285,6 +285,9 @@ i.fa.fa-envelope-o.icon-btn{
 div.pagination{
     padding: 20px 0 0 0;
 }
+.pagination{
+    padding: 60px 0 0 0; 
+}
 
 /* ===== PAGINATION END ===== */
 
@@ -333,6 +336,9 @@ div.pagination{
 }
 .card .card-author-info{
     border-top: 1px solid #e7ecf2;
+}
+.card .card-author-info .comment-heart{
+    display: none;
 }
 .card .card-author-info .card-author img{
     width: 30px;
@@ -496,6 +502,33 @@ div.pagination{
 }
 .card-items-slider .large-card {
     margin: 15px;
+}
+
+.all-items-page-container .card.medium-card{
+    margin-top: 30px;
+}
+
+.card.row-card .card-author-info .comment-heart{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.card.row-card .card-author-info .comment-heart .fa{
+    color: #8bc34a;
+    font-size: 16px;
+    margin-right: 12px;
+}
+.card.row-card .card-author-info .comment-heart .heart{
+    margin-left: 35px;
+}
+.card.row-card .card-author-info .comment-heart .comment::before,
+.card.row-card .card-author-info .comment-heart .heart::before{
+    content: "";
+    display: inline-block;
+    height: 11px;
+    border-left: 1px solid #a0a8ad;
+    margin-right: 17px;
 }
 
 /* ===== CARDS END ===== */
