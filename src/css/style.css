@@ -27,6 +27,7 @@
     color: #90a4ae;
     float: right;
 }
+
 /* ===== all items page ===== */
 
 /* ===== product details page ===== */
@@ -89,7 +90,7 @@
 
 .main-login .inner-login{
     background: url('../../app/img/inner-login.jpg') no-repeat center / cover;
-    height: 60vh;
+    height: 230px;
 }
 .main-login .inner-login .inner-login-content{
     font-size: 48px;
@@ -97,18 +98,34 @@
     text-transform: uppercase;
 }
 
-.main-login .inner-login .inner-login-content .inner-form{
+.main-login .inner-login .inner-login-content-prem{
+    font-size: 20px;
+}
+
+.main-login .inner-login .inner-login-content .inner-form,
+.main-login .inner-login .inner-login-content-prem .inner-form{
     position: relative;
     margin-top: 105px;
 }
+
+.main-login .inner-login .inner-login-content-prem .inner-form{
+    margin-top: 25px;
+}
+
+.main-login .inner-login .inner-login-content-prem .inner-form
 .main-login .inner-login .inner-login-content .inner-form .inner-search{
     box-shadow: 0 1px 10px 0 rgba(124, 178, 64, 0.75);
 }
-.main-login .inner-login .inner-login-content .inner-form i{
+.main-login .inner-login .inner-login-content .inner-form i,
+.main-login .inner-login .inner-login-content-prem .inner-form i{
     font-size: 20px;
     position: absolute;
     top: 18px;
     right: 25px;
+}
+
+.main-login .inner-login .inner-login-content-prem .inner-form i{
+    color: #90a4ae;
 }
   
 /* ==== main-login end ==== */
