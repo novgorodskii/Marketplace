@@ -84,6 +84,27 @@
 /* === header-dropdawn-login end === */
 
 /* ==== header-login end ==== */
+/* ===== inner  ===== */
+.bg-inner{
+    background: url(../../app/img/bg-gray-img.jpg) no-repeat center / cover  ;  
+}
+.inner-wrapper{
+    padding: 60px 0 70px;
+}
+.inner-wrapper-search{
+    position: relative;
+}
+.inner-wrapper .title{
+    margin-bottom: 20px;
+}
+.fa.fa-search{
+    position: absolute;
+    bottom:50%;
+    right: 23%;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+}
+/* ===== inner end ===== */
 
 /* ==== main-login ==== */
 
