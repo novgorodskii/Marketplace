@@ -3,13 +3,324 @@
 .sort-controls-container{
     padding: 20px;
 }
+.sort-controls-container .sort-by{
+    font-size: 14px;
+}
+.sort-controls-container .sort-by i{
+    color: #455a64;
+}
+.all-items-page-container .aside-section-list{
+    margin-top: 27px;
+}
+.all-items-page-container .aside-section-list li + li{
+    margin-top: 25px;
+}
+.all-items-page-container .aside-section-list i{
+    font-size: 14px;
+    color: #8bc34a;
+    margin-right: 10px;
+}
+.all-items-page-container .aside-section-list a{
+    color: #263238;
+}
+.all-items-page-container .aside-section-list a span{
+    color: #90a4ae;
+    float: right;
+}
 /* ===== all items page ===== */
 
 /* ===== product details page ===== */
 
-.product-fuul-img{
+.product-full-img{
     padding: 20px;
     background-color: #ffffff;
 }
 
 /* ===== product details page ===== */
+
+/* ===== LOGIN ===== */
+
+/* ==== header-login ==== */
+
+.header-login{
+    padding: 26px 0;
+}
+.header-login .logo{
+    margin-right: 62px;
+}
+.header-login .menu-nav{
+    font-size: 16px;
+    font-weight: 500;
+}
+.header-login .menu-nav a + a{
+    margin-left: 43px;
+}
+
+.header-login .btn{
+    margin-right: 27px;
+}
+
+/* === header-dropdawn-login === */
+
+.header-login .notification-content{
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+.header-login .notification-content .number-notification{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50%;
+    top: -5px;
+    right: -5px;
+    text-align: center;
+}
+.header-login .notification-content .number-notification span{
+    font-size: 11px;
+}
+/* === header-dropdawn-login end === */
+
+/* ==== header-login end ==== */
+
+/* ==== main-login ==== */
+
+.main-login .inner-login{
+    background: url('../../app/img/inner-login.jpg') no-repeat center / cover;
+    height: 60vh;
+}
+.main-login .inner-login .inner-login-content{
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main-login .inner-login .inner-login-content .inner-form{
+    position: relative;
+    margin-top: 105px;
+}
+.main-login .inner-login .inner-login-content .inner-form .inner-search{
+    box-shadow: 0 1px 10px 0 rgba(124, 178, 64, 0.75);
+}
+.main-login .inner-login .inner-login-content .inner-form i{
+    font-size: 20px;
+    position: absolute;
+    top: 18px;
+    right: 25px;
+}
+  
+/* ==== main-login end ==== */
+
+/* ==== footer start ===== */
+.footer-login{
+    height: 180px;
+}
+/* ==== footer start ===== */
+
+/* ===  btn login === */
+
+.btn.btn-creat-an-account{
+    width: 250px;
+    padding: 17px 0; 
+}
+.btn.btn-login-sub{
+    width: 140px;
+    height: 48px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 2px 0 rgba(118, 174, 54, 0.75);        
+}
+.modal .modal-conent .btn-green:hover{
+    background-color: #8bc34a;
+}
+.modal .modal-conent .btn-row-modal{
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+
+/* ==== btn login end ====  */
+
+/* ==== modal-login ==== */
+
+.modal{
+    display: none;
+}
+.modal .modal-conent{
+    padding: 90px 165px 110px;
+    position: relative;
+}
+.modal .modal-conent .close-modal{
+    position: absolute;
+    top: 20px;
+    right: 28px;
+}
+.modal .modal-conent .title-modal{
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.modal .input-icon{
+    width: 400px;
+    height: 43px;
+    position: relative;
+}
+.input-icon input::-webkit-input-placeholder{
+    color: #fff !important;
+}
+
+.input-icon input:-moz-placeholder{ /* Firefox 18- */
+    color: #fff !important;
+}
+
+.input-icon input::-moz-placeholder{  /* Firefox 19+ */
+    color: #fff !important;
+}
+
+.input-icon input:-ms-input-placeholder{
+    color: #fff !important;
+}
+.modal .input-icon + .input-icon{
+    margin-top: 8px;
+}
+.modal .input-icon input{
+    width: 100%;
+    height: 100%;
+    padding-left: 40px;
+    background-color: #638f3e;
+    border: none;
+}
+.modal .input-icon label{
+    position: absolute;
+    top: 13px;
+    left: 18px;
+}
+
+/* ==== modal-login end ==== */
+
+/* ===== LOGIN END ===== */
+
+/* ===== ERROR PAGE START ===== */
+
+.main .error-container{
+    width: 100%;
+}
+.main .error-container .error-page-content{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    border-top: none;
+}
+.main .error-container .error-page-content:hover{
+    box-shadow:  0 0 29px 1px  rgba(0, 0, 0, .35);
+}
+.main .error-container .error-title{
+    padding: 24px 0 28px 28px;
+}
+.main .error-container .error-page-content .error-number span{
+    font-size: 300px;
+    font-weight: 900;
+}
+.main .error-container .error-page-content .title-medium{
+    margin-bottom: 30px;
+}
+.main .error-container .error-page-content p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.main .error-container .error-page-content .btn-was-not-found{
+    margin-top: 55px;
+}
+
+/* ===== ERROR PAGE END ===== */
+
+/* ===== SALES STATEMENT START ===== */
+.sales-statement .container{
+    border: 1px solid #dcdcdc;
+}
+.your-sales{
+    padding: 17px 21px 18px 31px;
+    border-bottom: 1px solid #d7d7d7; 
+}
+
+.sales-statement .date-form .date{
+    position: relative;
+}
+.sales-statement .date-form .date input{
+    border: 1px solid #dedede;
+    height: 26px;
+    width: 134px;
+}
+.sales-statement .date-form .date .fa{
+    font-size: 12px;
+    color: #8cc148;
+    position: absolute;
+    top: 7px;
+    right: 11px;
+}
+.sales-statement .date-form .btn{
+    margin-left: 13px;
+}
+.your-sales-table{
+    padding: 35px 35px 80px 42px;
+}
+.sales-statement .your-sales-table .title{
+    font-size: 30px;
+    margin-top: 80px;
+}
+.sales-statement .title span{
+    color: #8bc34a;
+}
+/* ===== SALES STATEMENT END ===== */
+
+/* ===== WITHDRAWALS START ===== */
+.withdrawals .earnings,
+.withdrawals .history{
+    border: 1px solid #d7d7d7;
+}
+.withdrawals .earnings .title,
+.withdrawals .history .title{
+    border-bottom: 1px solid #d7d7d7;
+    padding: 17px 0 21px 31px;
+}
+.withdrawals .earnings .earnings-form{
+    padding: 19px 40px 49px 37px;
+}
+.withdrawals .earnings .form-row{
+    padding: 0;
+}
+.withdrawals .earnings .form-row .form-text{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.withdrawals .earnings .form-row .input{
+    width: 100%;
+    border-color: #d8d8d8;
+}
+.withdrawals .history-table{
+    padding: 33px 39px 36px 37px;
+}
+.withdrawals .history-table .table td{
+    padding: 15px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #444;
+    border: none;
+}
+.withdrawals .history-table .table tbody tr:nth-child(odd) td{
+    background-color: #f9f9f9;
+}
+.withdrawals .history-table .table tbody tr:nth-child(even) td{
+    background-color: #fff;
+}
+.withdrawals .history-table .table tbody tr td:nth-child(3){
+    font-weight: 700;
+}
+.withdrawals .history-table .table tbody tr td:nth-child(4){
+    color: #8bc34a;
+}
+.withdrawals .history-table .table tbody tr:nth-child(1) td:nth-child(4){
+    color: #444;
+}
+/* ===== WITHDRAWALS END ===== */
