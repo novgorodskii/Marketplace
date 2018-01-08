@@ -27,6 +27,14 @@
     color: #90a4ae;
     float: right;
 }
+.all-items-page-container .card.small-card{
+    margin-top: 26px;
+    margin-bottom: 15px;
+}
+.all-items-page-container .card.medium-card{
+    margin-top: 30px;
+}
+
 /* ===== all items page ===== */
 
 /* ===== product details page ===== */
@@ -237,3 +245,94 @@
 }
 
 /* ===== ERROR PAGE END ===== */
+/* ===== LOGIN ===== */
+
+/* ===== SALES STATEMENT START ===== */
+.sales-statement .container{
+    border: 1px solid #dcdcdc;
+}
+.your-sales{
+    padding: 17px 21px 18px 31px;
+    border-bottom: 1px solid #d7d7d7; 
+}
+
+.sales-statement .date-form .date{
+    position: relative;
+}
+.sales-statement .date-form .date input{
+    border: 1px solid #dedede;
+    height: 26px;
+    width: 134px;
+}
+.sales-statement .date-form .date .fa{
+    font-size: 12px;
+    color: #8cc148;
+    position: absolute;
+    top: 7px;
+    right: 11px;
+}
+.sales-statement .date-form .btn{
+    margin-left: 13px;
+}
+.your-sales-table{
+    padding: 35px 35px 80px 42px;
+}
+.sales-statement .your-sales-table .title{
+    font-size: 30px;
+    margin-top: 80px;
+}
+.sales-statement .title span{
+    color: #8bc34a;
+}
+/* ===== SALES STATEMENT END ===== */
+
+/* ===== WITHDRAWALS START ===== */
+.withdrawals .earnings,
+.withdrawals .history{
+    border: 1px solid #d7d7d7;
+}
+.withdrawals .earnings .title,
+.withdrawals .history .title{
+    border-bottom: 1px solid #d7d7d7;
+    padding: 17px 0 21px 31px;
+}
+.withdrawals .earnings .earnings-form{
+    padding: 19px 40px 49px 37px;
+}
+.withdrawals .earnings .form-row{
+    padding: 0;
+}
+.withdrawals .earnings .form-row .form-text{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.withdrawals .earnings .form-row .input{
+    width: 100%;
+    border-color: #d8d8d8;
+}
+.withdrawals .history-table{
+    padding: 33px 39px 36px 37px;
+}
+.withdrawals .history-table .table td{
+    padding: 15px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #444;
+    border: none;
+}
+.withdrawals .history-table .table tbody tr:nth-child(odd) td{
+    background-color: #f9f9f9;
+}
+.withdrawals .history-table .table tbody tr:nth-child(even) td{
+    background-color: #fff;
+}
+.withdrawals .history-table .table tbody tr td:nth-child(3){
+    font-weight: 700;
+}
+.withdrawals .history-table .table tbody tr td:nth-child(4){
+    color: #8bc34a;
+}
+.withdrawals .history-table .table tbody tr:nth-child(1) td:nth-child(4){
+    color: #444;
+}
+/* ===== WITHDRAWALS END ===== */
