@@ -114,9 +114,11 @@
 /* ==== main-login end ==== */
 
 /* ==== footer start ===== */
+
 .footer-login{
     height: 180px;
 }
+
 /* ==== footer start ===== */
 
 /* ===  btn login === */
@@ -200,4 +202,37 @@
 
 /* ==== modal-login end ==== */
 
-/* ===== LOGIN ===== */
+/* ===== LOGIN END ===== */
+
+/* ===== ERROR PAGE START ===== */
+
+.main .error-container{
+    width: 100%;
+}
+.main .error-container .error-page-content{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    border-top: none;
+}
+.main .error-container .error-page-content:hover{
+    box-shadow:  0 0 29px 1px  rgba(0, 0, 0, .35);
+}
+.main .error-container .error-title{
+    padding: 24px 0 28px 28px;
+}
+.main .error-container .error-page-content .error-number span{
+    font-size: 300px;
+    font-weight: 900;
+}
+.main .error-container .error-page-content .title-medium{
+    margin-bottom: 30px;
+}
+.main .error-container .error-page-content p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.main .error-container .error-page-content .btn-was-not-found{
+    margin-top: 55px;
+}
+
+/* ===== ERROR PAGE END ===== */
