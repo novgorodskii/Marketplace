@@ -67,6 +67,89 @@
     margin-top: 28px;
 }
 
+.live-preview-and-docs .product-features{
+    margin-top: 55px;
+}
+.live-preview-and-docs .product-features .tabs-controls li{
+    flex-grow: 1;
+    border: 1px solid #dcdcdc;
+}
+.live-preview-and-docs .product-features .tabs-controls li a.active,
+.live-preview-and-docs .product-features .tabs-controls li a:hover {
+    color: #263238;
+    font-weight: 500;
+    border-bottom: 2px solid #8bc34a;
+}
+.live-preview-and-docs .product-features .tabs-controls li + li{
+    border-left: none;
+}
+.live-preview-and-docs .product-features .tabs-controls li a{
+    padding: 20px 0;
+    height: 59px;
+    display: block;
+    color: #78909c;
+}
+
+.product-features .tab-content {
+    border: 1px solid #dedede;
+    border-top: none;
+    padding: 35px 35px 65px;
+    font-size: 16px;
+    color: #707070;
+    line-height: normal;
+  }
+  .tab-content .tab-pane {
+    display: none;
+  }
+  .tab-content .tab-pane.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .tab-pane ul + ul {
+    margin-left: 35px;
+  }
+  .tab-pane ul > li + li {
+    margin-top: 20px;
+  }
+  .tab-pane ul > li > .fa {
+    color: #8bc34a;
+    margin-right: 15px;
+  }
+  .more-products-wrap .title {
+    font-size: 18px;
+    padding: 21px 27px;
+    margin-top: 50px;
+  }
+  .more-products-item {
+    margin-top: 28px;
+    -webkit-box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
+    box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
+  }
+  .more-products-item:hover {
+    -webkit-box-shadow: 0 5px 15px rgba(205, 214, 222, 0.75);
+    box-shadow: 0 5px 15px rgba(205, 214, 222, 0.75);
+  }
+  .more-products-item-img img {
+    min-width: 100px;
+  }
+  .more-products-item-info {
+    font-size: 14px;
+    font-weight: 500;
+    color: #263238;
+    width: 100%;
+    padding: 20px 20px 10px;
+  }
+  .more-products-item-info .subtitle {
+    font-size: 12px;
+    font-weight: 400;
+    color: #8bc34a;
+  }
+  .more-products-item-info .price {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
 /* ==== aside ===== */
 
 .product-details-page-container aside + aside{
