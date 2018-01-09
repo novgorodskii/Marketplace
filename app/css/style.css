@@ -206,6 +206,7 @@
 
 /* ===== LOGIN END ===== */
 
+<<<<<<< HEAD
 /* ===== ERROR PAGE START ===== */
 
 .main .error-container{
@@ -239,3 +240,34 @@
 }
 
 /* ===== ERROR PAGE END ===== */
+=======
+.sales-statement .date-form .date{
+    position: relative;
+}
+.sales-statement .date-form .date input{
+    border: 1px solid #dedede;
+    height: 26px;
+    width: 134px;
+}
+.sales-statement .date-form .date .fa{
+    font-size: 12px;
+    color: #8cc148;
+    position: absolute;
+    top: 7px;
+    right: 11px;
+}
+.sales-statement .date-form .btn{
+    margin-left: 13px;
+}
+.your-sales-table{
+    padding: 35px 35px 80px 42px;
+}
+.sales-statement .your-sales-table .title{
+    font-size: 30px;
+    margin-top: 80px;
+}
+.sales-statement .title span{
+    color: #8bc34a;
+}
+/* ===== SALES STATEMENT END ===== */
+>>>>>>> parent of db970eb... withdrawal
