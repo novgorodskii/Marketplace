@@ -211,6 +211,7 @@
 /* ==== modal-login end ==== */
 
 /* ===== LOGIN ===== */
+<<<<<<< HEAD
 
 /* ===== SALES STATEMENT START ===== */
 .sales-statement .container{
@@ -225,6 +226,18 @@
 <<<<<<< HEAD
 /* ===== ERROR PAGE START ===== */
 =======
+=======
+
+/* ===== SALES STATEMENT START ===== */
+.sales-statement .container{
+    border: 1px solid #dcdcdc;
+}
+.your-sales{
+    padding: 17px 21px 18px 31px;
+    border-bottom: 1px solid #d7d7d7; 
+}
+
+>>>>>>> parent of 88094f1... reset
 .sales-statement .date-form .date{
     position: relative;
 }
@@ -254,6 +267,9 @@
     color: #8bc34a;
 }
 /* ===== SALES STATEMENT END ===== */
+<<<<<<< HEAD
+>>>>>>> parent of 88094f1... reset
+=======
 >>>>>>> parent of 88094f1... reset
 
 /* ===== WITHDRAWALS START ===== */
@@ -304,6 +320,7 @@
 }
 .withdrawals .history-table .table tbody tr:nth-child(1) td:nth-child(4){
     color: #444;
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 
@@ -338,5 +355,9 @@
 }
 
 =======
+/* ===== WITHDRAWALS END ===== */
+>>>>>>> parent of 88094f1... reset
+=======
+}
 /* ===== WITHDRAWALS END ===== */
 >>>>>>> parent of 88094f1... reset
