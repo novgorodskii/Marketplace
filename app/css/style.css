@@ -27,6 +27,14 @@
     color: #90a4ae;
     float: right;
 }
+.all-items-page-container .card.small-card{
+    margin-top: 26px;
+    margin-bottom: 15px;
+}
+.all-items-page-container .card.medium-card{
+    margin-top: 30px;
+}
+
 /* ===== all items page ===== */
 
 /* ===== product details page ===== */
@@ -115,11 +123,9 @@
 /* ==== main-login end ==== */
 
 /* ==== footer start ===== */
-
 .footer-login{
     height: 180px;
 }
-
 /* ==== footer start ===== */
 
 /* ===  btn login === */
@@ -204,40 +210,102 @@
 
 /* ==== modal-login end ==== */
 
-/* ===== LOGIN END ===== */
+/* ===== LOGIN ===== */
+
+/* ===== SALES STATEMENT START ===== */
+.sales-statement .container{
+    border: 1px solid #dcdcdc;
+}
+.your-sales{
+    padding: 17px 21px 18px 31px;
+    border-bottom: 1px solid #d7d7d7; 
+}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* ===== ERROR PAGE START ===== */
+=======
+.sales-statement .date-form .date{
+    position: relative;
+}
+.sales-statement .date-form .date input{
+    border: 1px solid #dedede;
+    height: 26px;
+    width: 134px;
+}
+.sales-statement .date-form .date .fa{
+    font-size: 12px;
+    color: #8cc148;
+    position: absolute;
+    top: 7px;
+    right: 11px;
+}
+.sales-statement .date-form .btn{
+    margin-left: 13px;
+}
+.your-sales-table{
+    padding: 35px 35px 80px 42px;
+}
+.sales-statement .your-sales-table .title{
+    font-size: 30px;
+    margin-top: 80px;
+}
+.sales-statement .title span{
+    color: #8bc34a;
+}
+/* ===== SALES STATEMENT END ===== */
+>>>>>>> parent of 88094f1... reset
 
-.main .error-container{
+/* ===== WITHDRAWALS START ===== */
+.withdrawals .earnings,
+.withdrawals .history{
+    border: 1px solid #d7d7d7;
+}
+.withdrawals .earnings .title,
+.withdrawals .history .title{
+    border-bottom: 1px solid #d7d7d7;
+    padding: 17px 0 21px 31px;
+}
+.withdrawals .earnings .earnings-form{
+    padding: 19px 40px 49px 37px;
+}
+.withdrawals .earnings .form-row{
+    padding: 0;
+}
+.withdrawals .earnings .form-row .form-text{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.withdrawals .earnings .form-row .input{
     width: 100%;
+    border-color: #d8d8d8;
 }
-.main .error-container .error-page-content{
-    padding-top: 60px;
-    padding-bottom: 100px;
-    border-top: none;
+.withdrawals .history-table{
+    padding: 33px 39px 36px 37px;
 }
-.main .error-container .error-page-content:hover{
-    -webkit-box-shadow:  0 0 29px 1px  rgba(0, 0, 0, .35);
-    box-shadow:  0 0 29px 1px  rgba(0, 0, 0, .35);
+.withdrawals .history-table .table td{
+    padding: 15px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #444;
+    border: none;
 }
-.main .error-container .error-title{
-    padding: 24px 0 28px 28px;
+.withdrawals .history-table .table tbody tr:nth-child(odd) td{
+    background-color: #f9f9f9;
 }
-.main .error-container .error-page-content .error-number span{
-    font-size: 300px;
-    font-weight: 900;
+.withdrawals .history-table .table tbody tr:nth-child(even) td{
+    background-color: #fff;
 }
-.main .error-container .error-page-content .title-medium{
-    margin-bottom: 30px;
+.withdrawals .history-table .table tbody tr td:nth-child(3){
+    font-weight: 700;
 }
-.main .error-container .error-page-content p{
-    font-size: 18px;
-    line-height: 24px;
+.withdrawals .history-table .table tbody tr td:nth-child(4){
+    color: #8bc34a;
 }
-.main .error-container .error-page-content .btn-was-not-found{
-    margin-top: 55px;
+.withdrawals .history-table .table tbody tr:nth-child(1) td:nth-child(4){
+    color: #444;
 }
+<<<<<<< HEAD
 
 /* ===== ERROR PAGE END ===== */
 .sales-statement .date-form .date{
@@ -269,3 +337,6 @@
     color: #8bc34a;
 }
 
+=======
+/* ===== WITHDRAWALS END ===== */
+>>>>>>> parent of 88094f1... reset

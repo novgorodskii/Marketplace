@@ -43,9 +43,7 @@
 .m-auto{
     margin: auto;
 }
-.mr-ml-auto{
-    margin: 0 auto;
-}
+
 /* ===== justify ===== */
 .justify-content-start{
     justify-content: flex-start;
