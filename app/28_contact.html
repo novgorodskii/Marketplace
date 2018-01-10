@@ -304,96 +304,76 @@
                 <li>
                     <a href="#">Home</a>
                 </li>
-                <li class="active">Upload Product</li>
+                <li class="active">Contact Us</li>
             </ul>
         </div>
         <!-- / Breadcrumb -->
-        <!-- FORM START -->
         <div class="container">
-            <div class="upload-product">
-                <div class="title medium-size-title text-medium d-flex align-items-center">
-                    <span>Upload Your item</span>
+            <div class="contact-us">
+                <div class="title contact medium-size-title text-medium d-flex align-items-center border-gray bg-white">
+                    <span>Contact With Us</span>
                 </div>
-                <form action="" class="form">
-                    <div class="form-row d-flex justify-content-between align-items-center">
-                        <span class="form-text">Select Categories
-                            <span class="form-star">*</span>
-                        </span>
-                        <select name="select" id="">
-                            <option value="#">Select</option>
-                            <option value="#">Select1</option>
-                        </select>
+                <div class="contact-us-content-info bg-white">
+                    <div class="contact-us-map-info bg-dark-grey">
                     </div>
-                    <div class="form-row d-flex justify-content-between align-items-center">
-                        <span class="form-text">Product Name
-                            <span class="form-star">*</span>
-                        </span>
-                        <input type="text" class="input" placeholder="Enter your product name here ...">
+                    <div class="row d-flex flex-wrap">
+                        <div class="col-md-4">
+                            <div class="contact-us-info">
+                                <div class="contact-us-block d-flex">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <div>
+                                        <span class="title small-size-title">Our Office Address</span>
+                                        <p class="default-text">PO Box 16122 Collins Street West Victoria 8007 Australia</p>
+                                    </div>
+                                </div>
+                                <div class="contact-us-block d-flex">
+                                    <i class="fa fa fa-phone" aria-hidden="true"></i>
+                                    <div>
+                                        <span class="title small-size-title">Phone</span>
+                                        <p class="default-text">+61 3 8376 6284</p>
+                                    </div>
+                                </div>
+                                <div class="contact-us-block d-flex">
+                                    <i class="fa fa fa-phone" aria-hidden="true"></i>
+                                    <div>
+                                        <span class="title small-size-title">E-mail</span>
+                                        <p class="default-text">info@foxtar.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- / contact-us-info -->
+                        </div>
+                        <!-- / col -->
+                        <div class="col-md-8">
+                            <div class="contact-form">
+                                <span class="title medium-size-title text-medium d-flex align-items-center">Drop Us A Message</span>
+                                <form action="">
+                                    <div class="row d-flex flex-wrap">
+                                        <div class="col-md-6">
+                                            <input type="text" class="form-contact" name="name" placeholder="Name*">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" class="form-contact" name="email" placeholder="E-mail*">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <textarea name="" class="form-contact" placeholder="Message*"></textarea>
+                                        </div>
+                                    </div>
+                                    <!-- / row -->
+                                    <button type="submit" class="btn btn-drop-us-message btn-bold btn-green text-white">Send Message</button>
+                                </form>
+                            </div>
+                            <!-- / contact-form  -->
+                        </div>
+                        <!-- / col -->
                     </div>
-                    <div class="form-row d-flex justify-content-between align-items-start">
-                        <span class="form-text">Product Description
-                            <span class="form-star">*</span>
-                        </span>
-                        <textarea name="" class="input textarea" placeholder="&lt;h1&gt; Type your text  here &lt;/h1/&gt;"></textarea>
-                    </div>
-                    <div class="form-row d-flex justify-content-between align-items-center">
-                        <span class="form-text">Upload Main File
-                            <span class="form-star">*</span>
-                        </span>
-                        <input type="file" class="input file">
-                    </div>
-                    <div class="form-row d-flex justify-content-between align-items-center">
-                        <span class="form-text">Upload Screenshots
-                            <span class="form-star">*</span>
-                        </span>
-                        <input type="file" class="input file">
-                    </div>
-                    <div class="form-row d-flex justify-content-between align-items-center">
-                        <span class="form-text">File Included
-                            <span class="form-star">*</span>
-                        </span>
-                        <select name="select" id="">
-                            <option value="#">Select File Type</option>
-                            <option value="#">Select1</option>
-                        </select>
-                    </div>
-                    <div class="form-row d-flex justify-content-between align-items-center">
-                        <span class="form-text">File Dimensions
-                            <span class="form-star">*</span>
-                        </span>
-                        <input type="text" class="input" placeholder="Enter the item  dimentionss here ...">
-                    </div>
-                    <div class="form-row d-flex justify-content-between align-items-center">
-                        <span class="form-text">Item Tags
-                            <span class="form-star">*</span>
-                        </span>
-                        <input type="text" class="input" placeholder="Enter Tag Here">
-                    </div>
-                </form>
-            </div>
-            <div class="upload-product set-your-price">
-                <div class="title medium-size-title text-medium d-flex align-items-center">
-                    <span>Set Your Price (US$)</span>
+                    <!-- / row -->
                 </div>
-                <form action="" class="form">
-                    <div class="form-row d-flex justify-content-between align-items-center">
-                        <span class="form-text">Regular License
-                            <span class="form-star">*</span>
-                        </span>
-                        <input type="text" class="input" placeholder="$00.00">
-                    </div>
-                    <div class="form-row d-flex justify-content-between align-items-center">
-                        <span class="form-text">Extended License
-                            <span class="form-star">*</span>
-                        </span>
-                        <input type="text" class="input" placeholder="$00.00">
-                    </div>
-                    <div>
-                        <a href="" class="btn btn-your-item-sub btn-small btn-medium btn-green text-white">Submit</a>
-                    </div>
-                </form>
+                <!-- / contact-us-content-info -->
             </div>
+            <!-- / contact-us -->
         </div>
+        <!-- / container -->
     </main>
     <!-- MAIN END -->
     <!-- FOOTER -->
