@@ -1273,7 +1273,7 @@ input:-ms-input-placeholder{
 }
 .jq-selectbox li:hover {
 	background-color: #08c;
-	color: #ff;
+	color: #fff;
 }
 .jq-selectbox li.disabled {
 	color: #aaa;

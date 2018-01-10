@@ -32,7 +32,8 @@
 
 /* ===== product details page ===== */
 
-.product-details-page-container .product-fuul-img{
+.product-details-page-container .product-fuul-img,
+.profile-details-page-container .product-fuul-img{
     padding: 20px;
     background-color: #ffffff;
 }
@@ -211,7 +212,92 @@
     font-size: 14px;
 }
 
-/* ===== product details page ===== */
+/* ===== product details page end ===== */
+
+/* ===== profile details page ===== */
+
+.main .aside-section.profile-details .aside-section-title{
+    margin-bottom: 25px;
+}
+.main .aside-section.profile-details .aside-product-author .view-profile-author i{
+    margin-right: 8px;
+}
+.main .social-icon-product{
+    margin-top: 24px;
+    margin-bottom: 28px;
+}
+.main .social-icon-product > .icon{
+    border-radius: 2px;
+    margin: 0 4px;
+}
+.main .btn-row-product{
+    margin-bottom: 30px;
+}
+.main .btn-row-product a:first-child {
+    margin-bottom: 18px;
+}
+
+
+.aside .about-me-details{
+    border-bottom: none;
+}
+.aside .about-me-details li{
+    border-bottom: 1px solid #d7d7d7;
+}
+.aside .about-me-details li a{
+    padding: 15px 20px;
+    display: block;
+    height: 50px;
+    color: #707070;
+}
+.aside .about-me-details li a:hover i,
+.aside .about-me-details li a:active i{
+    color: #8bc34a;
+}
+.aside .about-me-details li a:hover,
+.aside .about-me-details li a:active{
+    border-bottom: 2px solid #8bc34a;
+    color: #263238;
+    font-weight: 500;
+}
+.aside .about-me-details li a > i{
+    margin-right: 13px;
+}
+
+.profile-details-page-container .profile-details-author-info{
+    margin: 30px 0;
+
+}
+.profile-details-page-container .profile-details-author-info li{
+    flex-grow: 1;
+    padding: 25px 0 20px;
+    line-height: 24px;
+}
+.profile-details-page-container .profile-details-author-info li + li{
+    border-left: 1px solid #dcdcdc; 
+}
+.profile-details-author-info li .author-rating-icon > i{
+    color: #ffa726;
+}
+.profile-details-author-info li .author-rating-icon span::before,
+.profile-details-author-info li .author-rating-icon span::after{
+    color: #b0bec5;
+    content: '(';
+}
+.profile-details-author-info li .author-rating-icon span::after{
+    content: ')';
+}
+
+.profile-details-page-container .about-me-content{
+    padding: 40px;
+}
+
+.profile-details-page-container .about-me-content p{
+    margin-top: 30px;
+    line-height: 24px;
+}
+
+/* ===== profile details page end ===== */
 
 /* ===== LOGIN ===== */
 
@@ -259,18 +345,28 @@
 /* === header-dropdawn-login end === */
 
 /* ==== header-login end ==== */
+
 /* ===== inner  ===== */
+
 .bg-inner{
     background: url(../../app/img/bg-gray-img.jpg) no-repeat center / cover  ;  
 }
 .inner-wrapper{
     padding: 60px 0 70px;
 }
-.inner-wrapper-search{
-    position: relative;
-}
 .inner-wrapper .title{
     margin-bottom: 20px;
+}
+.inner-wrapper-search .inner-form{
+    position: relative;
+    width: 670px;
+    margin: 0 auto;
+}
+
+.inner-wrapper-search .inner-form i{
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 /* ===== inner end ===== */
