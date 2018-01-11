@@ -384,6 +384,37 @@
 .who-choose-link:hover a{
     color:#8bc34a;
 }
+.author-section{
+    padding-top: 130px;
+    padding-bottom:  137px;
+}
+.author-bg-area{
+    background-color: #b5b5b5;
+    padding: 115px 226px 108px 226px;
+    height: 438px;
+    box-shadow: 12px 0 29px rgba(0, 0, 0, .35);
+}
+.author-banner-wrapper{
+    padding: 70px 30px 80px 61px;
+}
+.author-banner-text{
+    width: 50%;
+    line-height: 1.2em;
+    padding-top: 8px;
+}
+.tutorial-title{
+    display: block;
+    background:#f8f8f8;
+    height: 100px;
+    margin-top: -3px;
+    padding-top: 42px;
+}
+.tutorial-title:hover a{
+    color:#8bc34a;
+}
+.tutorial .title{
+    margin-bottom: 60px;
+}
 /* ===== /03 main-home end===== */
 
 /* ===== 16_Settings ===== */
