@@ -18,61 +18,85 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-fb {
   background-image: url(../img/sprite.png);
-  background-position: -68px -37px;
+  background-position: -142px -28px;
   width: 28px;
   height: 28px;
 }
 .icon-linkedin {
   background-image: url(../img/sprite.png);
-  background-position: 0px -74px;
+  background-position: -142px 0px;
   width: 28px;
   height: 28px;
 }
 .icon-pinterest {
   background-image: url(../img/sprite.png);
-  background-position: -28px -74px;
+  background-position: -102px -100px;
   width: 28px;
   height: 28px;
 }
 .icon-product-author-1 {
   background-image: url(../img/sprite.png);
-  background-position: 0px 0px;
+  background-position: -108px -37px;
   width: 34px;
   height: 37px;
 }
 .icon-product-author-2 {
   background-image: url(../img/sprite.png);
-  background-position: -34px 0px;
+  background-position: 0px -100px;
   width: 34px;
   height: 37px;
 }
 .icon-product-author-3 {
   background-image: url(../img/sprite.png);
-  background-position: -68px 0px;
+  background-position: -34px -100px;
   width: 34px;
   height: 37px;
 }
 .icon-product-author-4 {
   background-image: url(../img/sprite.png);
-  background-position: 0px -37px;
+  background-position: -68px -100px;
   width: 34px;
   height: 37px;
 }
 .icon-product-author-5 {
   background-image: url(../img/sprite.png);
-  background-position: -34px -37px;
+  background-position: -108px 0px;
   width: 34px;
   height: 37px;
 }
+.icon-product-social-li {
+  background-image: url(../img/sprite.png);
+  background-position: 0px 0px;
+  width: 54px;
+  height: 50px;
+}
+.icon-product-social-pt {
+  background-image: url(../img/sprite.png);
+  background-position: -54px 0px;
+  width: 54px;
+  height: 50px;
+}
+.icon-product-social-tw {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -50px;
+  width: 54px;
+  height: 50px;
+}
+.icon-prosuct-social-fb {
+  background-image: url(../img/sprite.png);
+  background-position: -54px -50px;
+  width: 54px;
+  height: 50px;
+}
 .icon-twitter {
   background-image: url(../img/sprite.png);
-  background-position: -56px -74px;
+  background-position: -142px -56px;
   width: 28px;
   height: 28px;
 }
 .icon-youtube {
   background-image: url(../img/sprite.png);
-  background-position: -102px 0px;
+  background-position: -142px -84px;
   width: 28px;
   height: 28px;
 }
