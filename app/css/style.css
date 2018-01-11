@@ -638,6 +638,18 @@
     color: #444;
 }
 
+.withdrawals .jq-selectbox__select{
+    width: 490px;
+}
+
+/* ===== upload-product ===== */
+
+.upload-product .form-row .input{
+    width: 900px;
+}
+
+/* ===== upload-product end ===== */
+
 /* ===== WITHDRAWALS END ===== */
 
 /* ===== 03_main-home===== */
