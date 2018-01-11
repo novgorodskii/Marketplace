@@ -39,23 +39,29 @@
 <body>
 
 <!-- HEADER -->
+<!-- HEADER -->
 <header class="header">
     <section class="top-header">
         <div class="container">
             <div class="d-flex justify-content-between">
                 <div class="logo">
-                    <a href=""><img src="img/logo.png" alt="logo"></a>
+                    <a href="">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
                 </div>
                 <!-- logo -->
                 <div class="auth-controls d-flex flex-row align-items-center">
-                    <span class="auth-controls-help">Need help?</span>
-                    <p>to an expert: +61 3 8376 6284</p>
+                    <p><span class="auth-controls-help">Need help?</span>to an expert: +61 3 8376 6284</p>
                     <ul class="notification d-flex flex-row">
                         <li class="dropdown-container">
                             <div class="notification-content d-flex align-items-center">
-                                <div class="number-notification bg-orange"><span>8</span></div>
+                                <div class="number-notification bg-orange">
+                                    <span>8</span>
+                                </div>
                                 <div class="notification-item-icon d-flex m-auto">
-                                    <a href=""><i class="fa fa-bell-o" aria-hidden="true"></i></a>
+                                    <a href="">
+                                        <i class="fa fa-bell-o" aria-hidden="true"></i>
+                                    </a>
                                 </div>
                             </div>
                             <!-- / notification-item -->
@@ -99,9 +105,13 @@
                         <!-- / notification-item -->
                         <li class="dropdown-container">
                             <div class="notification-content d-flex align-items-center dropdown-container">
-                                <div class="number-notification bg-light-orange"><span>5</span></div>
+                                <div class="number-notification bg-light-orange">
+                                    <span>5</span>
+                                </div>
                                 <div class="notification-item-icon d-flex m-auto">
-                                    <a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                                    <a href="">
+                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    </a>
                                 </div>
                             </div>
                             <!-- / notification-item -->
@@ -148,9 +158,13 @@
                         <!-- / notification-item -->
                         <li class="dropdown-container">
                             <div class="notification-content d-flex align-items-center dropdown-container">
-                                <div class="number-notification bg-green"><span>8</span></div>
+                                <div class="number-notification bg-green">
+                                    <span>8</span>
+                                </div>
                                 <div class="notification-item-icon d-flex m-auto">
-                                    <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                                    <a href="">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    </a>
                                 </div>
                             </div>
                             <!-- / notification-item -->
@@ -179,8 +193,8 @@
                                         <span>$118</span>
                                     </div>
                                     <div class="btn-cart d-flex flex-row ">
-                                        <a class="btn btn-bg-green">Go to Cart</a>
-                                        <a class="btn btn-bg-red">Go to Checkout</a>
+                                        <a class="btn btn-small btn-light-green btn-go-to-cart btn-bold text-off-white">Go to Cart</a>
+                                        <a class="btn btn-less-than-average btn-light-green btn-bold text-off-white">Go to Checkout</a>
                                     </div>
                                 </div>
                             </div>
@@ -193,7 +207,9 @@
                             <img src="img/user-avatar.png" alt="">
                         </div>
                         <div class="dropdown-container user-name d-flex flex-column justify-content-between">
-                            <a href="#">Mike Hussy <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <a href="#">Mike Hussy
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
                             <div class="dropdown-menu  dropdown-user">
                                 <ul class="d-flex flex-column">
                                     <li class="d-flex">
@@ -235,7 +251,7 @@
                         </div>
                     </div>
                     <!-- / user-controls -->
-                    <div class="header-btn d-flex justify-content-center align-items-center">
+                    <div class="btn btn-registry btn-green text-white d-flex justify-content-center align-items-center">
                         <a href="">Logout</a>
                     </div>
                 </div>
@@ -248,6 +264,7 @@
     <section class="bottom-header">
         <div class="container">
             <nav class="menu-nav">
+                <a href="#">Home</a>
                 <a href="#">About</a>
                 <a href="#">WordPress</a>
                 <a href="#">Joomla</a>
@@ -457,13 +474,13 @@
                 <div class="col-md-9">
                     <div class="sort-controls-container bg-white border-grey d-flex justify-content-between align-items-center">
                         <div class="sort-by">
-                            <i class="fa fa-sort-amount-desc" aria-hidden="true"></i>
+                            <i class="fa fa-sort-amount-desc active" aria-hidden="true"></i>
                             <span>Sort by: New Items</span>
                             <i class="fa fa-sort" aria-hidden="true"></i>
                         </div>
                         <div class="change-view">
-                            <i class="fa fa-th-large change-icon active"></i>
-                            <i class="fa fa-th-list change-icon"></i>
+                            <i class="fa fa-th-large change-icon active" id="grid-thumbs"></i>
+                            <i class="fa fa-th-list change-icon" id="grid-list"></i>
                         </div>
                     </div>
                     <!-- / sort-controls-container -->

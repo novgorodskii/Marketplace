@@ -527,6 +527,8 @@ i.fa.fa-envelope-o.icon-btn{
     -ms-flex-align: center;
     align-items: center;
     margin-left: 30px;
+    display: inline-block;
+
 }
 .card.row-card .card-author-info .comment-heart .fa{
     color: #8bc34a;
@@ -677,7 +679,7 @@ i.fa.fa-envelope-o.icon-btn{
     box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);
     min-width: 160px;
 }
-.dropdown-container:hover .dropdown-menu{
+.dropdown-container.active .dropdown-menu{
     display: block;
 }
 /* ===== dropdown end ===== */
@@ -1033,7 +1035,7 @@ i.fa.fa-envelope-o.icon-btn{
     color: #8bc34a;
 }
 .form-row .input{
-    min-width: 540px;
+    min-width: 490px;
     height: 40px;
     padding-left: 15px;
     background-color: #f9f9f9;
@@ -1195,6 +1197,7 @@ input:-ms-input-placeholder{
     width: 900px;
 }
 .jq-selectbox__select {
+    width: 490px;
 	height: 40px;
 	padding: 0 40px 0 15px;
 	border: 1px solid #dcdcdc;

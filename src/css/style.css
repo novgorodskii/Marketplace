@@ -6,6 +6,10 @@
 .sort-controls-container .sort-by{
     font-size: 14px;
 }
+.sort-controls-container .change-view .fa:hover,
+.sort-controls-container .change-view .fa.active {
+    color: #8bc34a;
+  }
 .sort-controls-container .sort-by i{
     color: #455a64;
 }
@@ -577,6 +581,7 @@
 /* ===== SALES STATEMENT END ===== */
 
 /* ===== WITHDRAWALS START ===== */
+
 .withdrawals .earnings,
 .withdrawals .history{
     border: 1px solid #d7d7d7;
@@ -695,6 +700,7 @@
 /* ===== /03 main-home end===== */
 
 /* ===== 16_Settings ===== */
+
 .settings-aside{
     border: 1px solid #dcdcdc;
 }
@@ -728,8 +734,8 @@ ul.settings-title.bg-white{
 .settings-forms .title{
     padding: 20px 15px 23px 33px;
 }
-.settings-forms-content .form-row .input{
-    min-width: 540px;;
+.settings-forms-content .form-row .input-settings{
+    min-width: 540px;
 }
 .settings-form-row{
     width: 100%;
@@ -737,7 +743,7 @@ ul.settings-title.bg-white{
     padding-right: 37px;
     margin-bottom: 20px;
 }
-.settings-form-row .input{
+.settings-form-row .input-settings{
     width: 540px;
     height: 40px;
     padding-left: 15px;
@@ -754,6 +760,7 @@ ul.settings-title.bg-white{
     padding-left: 292px;
     margin-bottom: 60px;
 }
+
 /* ===== 16_Settings end ===== */
 
 /* ===== 25_About us ===== */
