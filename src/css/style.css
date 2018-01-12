@@ -379,7 +379,7 @@
 
 .main-login .inner-login{
     background: url('../../app/img/inner-login.jpg') no-repeat center / cover;
-    height: 230px;
+    height: 65vh;
 }
 .main-login .inner-login .inner-login-content{
     font-size: 48px;
