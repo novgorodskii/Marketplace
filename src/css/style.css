@@ -379,7 +379,7 @@
 
 .main-login .inner-login{
     background: url('../../app/img/inner-login.jpg') no-repeat center / cover;
-    height: 230px;
+    height: 65vh;
 }
 .main-login .inner-login .inner-login-content{
     font-size: 48px;
@@ -644,6 +644,14 @@
 /* ===== upload-product end ===== */
 
 /* ===== WITHDRAWALS END ===== */
+
+/* ===== upload-product ===== */
+
+.upload-product .form-row .input{
+    width: 900px;
+}
+
+/* ===== upload-product end ===== */
 
 /* ===== 03_main-home===== */
 .lets-title{
