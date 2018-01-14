@@ -1,5 +1,37 @@
 $(function () {
 
+  // Open dropdown nav 
+  // let nav = $('[data-open-dropdown]');
+  let nav = $('.dropdown-container');
+    nav.on('click', function(e) {
+    e.preventDefault();
+    $(this).toggleClass('active');
+  });
+
+  // Switch grid cards (all-items)
+  $('#grid-thumbs05').on('click', function() {
+    $('.change-icon').removeClass('active');
+    $('#grid-thumbs05').addClass('active');
+    $('.card.medium-card').removeClass('row-card');
+  });
+  $('#grid-list05').on('click', function() {
+    $('.change-icon').removeClass('active');
+    $('#grid-list05').addClass('active');
+    $('.card.medium-card').addClass('row-card');  
+  });
+
+  // Switch grid cards (all-items)
+  $('#grid-thumbs04').on('click', function() {
+    $('.change-icon').removeClass('active');
+    $('#grid-thumbs04').addClass('active');
+    $('.card.medium-card').removeClass('row-card');
+  });
+  $('#grid-list04').on('click', function() {
+    $('.change-icon').removeClass('active');
+    $('#grid-list04').addClass('active');
+    $('.card.medium-card').addClass('row-card');  
+  });
+
   // init slick slider
   $('.multiple-items').slick({
     infinite: true,
