@@ -12,8 +12,10 @@
 
     <!-- Slick slider style -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
-
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+
+    <!-- jQuery UI style -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
     <!-- Font awesome -->
     <link rel="stylesheet" href="../src/css/font-awesome.min.css">
@@ -314,20 +316,22 @@
                 <div class="row">
                     <div class="your-sales d-flex justify-content-between">
                         <div class="title medium-size-title text-medium">Your Sales Statement</div>
-                        <div class="date-form">
-                            <form action="" class="d-flex align-items-center">
-                                <div class="date">
-                                    <label for="" class="fa fa-calendar"></label>
-                                    <input type="date" name="" id="" min="20/11/2016">
+                        <div class="date-form d-flex ml-auto align-items-center">
+                            <div class="datepicker d-flex align-items-center">
+                                <div class="datepicker-input">
+                                  <input type="text" id="from" name="from" class="date bg-dark-grey">
+                                  <label for="from" ><i class="fa fa-calendar" aria-hidden="true"></i></label>
                                 </div>
                                 <span>To</span>
-                                <div class="date">
-                                    <label for="" class="fa fa-calendar"></label>
-                                    <input type="date" name="" id="" data-ng-pluralize="">
+                                <div class="datepicker-input">
+                                  <input type="text" id="to" name="to" class="date bg-grey">
+                                  <label for="to" ><i class="fa fa-calendar" aria-hidden="true"></i></label>
                                 </div>
-                                <a href="" class="btn btn-your-sales-find btn-xs btn-green text-white">Find</a>
-                            </form>
+                            </div>
+                            <!-- / datepicker -->
+                            <a href="" class="btn btn-your-sales-find btn-xs btn-green text-white">Find</a>
                         </div>
+                        <!-- / date-form  -->
                     </div>
                     <!-- / your-sales -->
 
@@ -534,13 +538,16 @@
     <!-- FOOTER END -->
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.1/dist/jquery.formstyler.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
-    <!-- Init plugins -->
-    <script src="js/init.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.1/dist/jquery.formstyler.min.js"></script>
+    
+    <!-- Datapicker -->
+    <script type="text/javascript" src="js/datepicker.js"></script>
 
+    <!-- Init plugins -->
+    <script type="text/javascript" src="js/init.js"></script>
 </body>
 
 </html>

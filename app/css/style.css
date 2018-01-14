@@ -557,21 +557,34 @@
     border-bottom: 1px solid #d7d7d7; 
 }
 
-.sales-statement .date-form .date{
+.datepicker-input {
     position: relative;
-}
-.sales-statement .date-form .date input{
-    border: 1px solid #dedede;
-    height: 26px;
-    width: 134px;
-}
-.sales-statement .date-form .date .fa{
     font-size: 12px;
-    color: #8cc148;
+
+}
+.datepicker-input .date {
+    width: 135px;
+    color: #444;
+    padding: 5px 0 5px 15px;
+    border: 1px solid #dedede;
+    background-color: #f9f9f9;
+}
+.datepicker-input .date:focus {
+    outline: none;
+}
+.datepicker-input label {
     position: absolute;
-    top: 7px;
+    line-height: 27px;
+    color: #8cc148!important;
+    top: 0;
     right: 11px;
 }
+.date-form .datepicker span {
+    margin: 0 10px;
+    font-size: 12px;
+    color: #444;
+}
+
 .sales-statement .date-form .btn{
     margin-left: 13px;
 }
@@ -585,6 +598,7 @@
 .sales-statement .title span{
     color: #8bc34a;
 }
+
 /* ===== SALES STATEMENT END ===== */
 
 /* ===== WITHDRAWALS START ===== */
