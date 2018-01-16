@@ -290,10 +290,7 @@ i.fa.fa-envelope-o.icon-btn{
     color: #fff;
 }
 .pagination{
-    padding: 60px 0 0 0;
-}
-.pagination{
-    padding: 60px 0 0 0; 
+    padding: 60px 0;
 }
 
 /* ===== PAGINATION END ===== */
@@ -889,8 +886,10 @@ i.fa.fa-envelope-o.icon-btn{
 
 /* ===== FOOTER END ===== */
 
+main{
+    margin-bottom: 100px;
+}
 .footer{
-    margin-top: 100px;
     background: #263238;
 }
 .footer-content{
@@ -954,6 +953,8 @@ i.fa.fa-envelope-o.icon-btn{
     position: relative;
 }
 .footer .email-adresss-form input{
+    color: #697378;
+    font-size: 14px;
     background-color: #2f3c43;
     border: none;
     height: 40px;
@@ -973,10 +974,13 @@ i.fa.fa-envelope-o.icon-btn{
     font-size: 20px;
 }
 .footer .copyright{
+    border-top: 1px solid #424d53;
     padding-top: 25px;
     padding-bottom: 35px; 
 }
-
+.footer .copyright span{
+    color: #919699;
+}
 
 /* ===== FOOTER ===== */
 

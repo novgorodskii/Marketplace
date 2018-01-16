@@ -6,6 +6,9 @@
 .sort-controls-container .sort-by{
     font-size: 14px;
 }
+.sort-controls-container .sort-by span{
+    margin: 0 15px;
+}
 .sort-controls-container .change-view .fa:hover,
 .sort-controls-container .change-view .fa.active {
     color: #8bc34a;
@@ -18,6 +21,10 @@
 }
 .all-items-page-container .aside-section-list li + li{
     margin-top: 25px;
+}
+.all-items-page-container .aside-section-list a:hover,
+.all-items-page-container .aside-section-list a:hover span{
+    color: #8bc34a;
 }
 .all-items-page-container .aside-section-list i{
     font-size: 14px;
@@ -243,7 +250,6 @@
     margin-bottom: 18px;
 }
 
-
 .aside .about-me-details{
     border-bottom: none;
 }
@@ -367,7 +373,7 @@
 }
 .inner-wrapper-search .inner-form{
     position: relative;
-    width: 670px;
+    max-width: 670px;
     margin: 0 auto;
 }
 
@@ -406,7 +412,7 @@
 }
 
 .main-login .inner-login .inner-login-content-prem .inner-form
-.main-login .inner-login .inner-login-content .inner-form .inner-search{
+.main-login .inner-login .inner-login-content .inner-form .inner-search:focus{
     -webkit-box-shadow: 0 1px 10px 0 rgba(124, 178, 64, 0.75);
     box-shadow: 0 1px 10px 0 rgba(124, 178, 64, 0.75);
 }
@@ -653,7 +659,7 @@
 }
 
 .withdrawals .jq-selectbox__select{
-    width: 490px;
+    width: 69%;
 }
 
 /* ===== upload-product ===== */
@@ -675,11 +681,39 @@
 /* ===== upload-product end ===== */
 
 /* ===== 03_main-home===== */
+
+.main-home .bg-inner{
+    background: url(../../app/img/inner-login.jpg) no-repeat center / cover;
+}
+.main-home .inner-wrapper{
+    padding: 160px 0 175px;
+}
+.main-home .inner-wrapper h1{
+    font-weight: bold;
+    font-size: 48px;
+}
+.main-home .inner-wrapper span{
+    margin-top: 20px;
+    margin-bottom: 55px;
+    display: block;
+}
+.main-home .inner-wrapper .inner-wrapper-search .inner-form .inner-search:focus{
+    -webkit-box-shadow: 0 1px 10px 1px #7cb240;
+    box-shadow: 0 1px 10px 1px #7cb240;
+}
 .lets-title{
     padding: 120px 0 60px;
 }
 .lets-check-tags{
     margin-bottom: 60px;
+}
+.lets-check-out .card-example .card{
+    margin-top: 32px;
+}
+.lets-check-out .lets-check-out-btn{
+    width: 340px;
+    margin-top: 80px;
+    margin-bottom: 90px; 
 }
 .lets-check-btn{
     margin:26px 0 100px;
@@ -730,7 +764,6 @@
     display: block;
     background:#f8f8f8;
     height: 100px;
-    margin-top: -3px;
     padding-top: 42px;
 }
 .tutorial-title:hover a{
@@ -749,7 +782,7 @@
 .settings-title  li + li{
     border-top: 1px solid #dcdcdc;
 }
-.settings-title  li{
+.settings-title  li a{
     display: block;
     padding: 19px 14px 15px 49px;
 }
@@ -758,6 +791,7 @@ ul.settings-title.bg-white{
 }
 .settings-title li i{
     position: absolute;
+    color: #707070;
     left: 22px;
 }
 .settings-title  li:hover a {
@@ -766,6 +800,7 @@ ul.settings-title.bg-white{
 .settings-title li.active {
     color: #37474f;
     border-bottom:2px solid #8bc34a;
+    font-weight: 500;
 }
 .settings-title li.active i{
     color: #8bc34a;
@@ -775,6 +810,10 @@ ul.settings-title.bg-white{
 }
 .settings-forms .title{
     padding: 20px 15px 23px 33px;
+}
+.settings-forms-content{
+    border-top: 1px solid #d7d7d7;
+    padding-top: 40px;
 }
 .settings-forms-content .form-row .input-settings{
     min-width: 540px;
@@ -786,7 +825,7 @@ ul.settings-title.bg-white{
     margin-bottom: 20px;
 }
 .settings-form-row .input-settings{
-    width: 540px;
+    width: 68%;
     height: 40px;
     padding-left: 15px;
     background-color: #f9f9f9;
@@ -795,12 +834,15 @@ ul.settings-title.bg-white{
     color: #707070;
     outline-color: #acb0b3;
 }
+.settings-form-row .input-settings:focus{
+    border: 1px solid #638f3e;
+}
 .settings-form-row .jq-selectbox{
     width: 540px;
 }
 .form .btn-row{
-    padding-left: 292px;
-    margin-bottom: 60px;
+    width: 69%;
+    margin-left: auto;
 }
 
 /* ===== 16_Settings end ===== */
