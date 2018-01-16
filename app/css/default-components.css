@@ -904,12 +904,20 @@ main{
     font-size: 22px;
     color: #fff;
 }
-.title-footer .green-border{
+.green-border,
+.green-border-us{
     margin-bottom: 32px;
     margin-top: 28px;
     width: 51px;
     border-top: 3px solid #8bc34a;
 }
+
+.green-border-us{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 45px;
+}
+
 .footer .contact-company{
     margin-top: 35px;
 }
@@ -1035,14 +1043,14 @@ main{
     padding-right: 48px;
     margin-bottom: 20px;
 }
-.upload-product .form .form-text{
+.upload-product .form .label{
     color: #444;
 }
-.upload-product .form .form-text .form-star{
+.upload-product .form .label .form-star{
     font-size: 24px;
     color: #8bc34a;
 }
-.form-row .input{
+.input{
     min-width: 490px;
     height: 40px;
     padding-left: 15px;
@@ -1052,10 +1060,19 @@ main{
     color: #707070;
     outline-color: #acb0b3;
 }
-.form-row .input.textarea{
-    height: 150px;
+
+.input:focus{
+    border: 1px solid #638f3e;
 }
-.form-row .input.file{
+
+.input.textarea{
+    height: 150px;
+    padding: 10px 16px;
+}
+.input.textarea:focus{
+    border: 1px solid #638f3e;
+}
+.input.file{
     padding-top: 7px;
 }
 .login{
@@ -1208,14 +1225,14 @@ input:-ms-input-placeholder{
     width: 100%;
 	height: 40px;
 	padding: 0 40px 0 15px;
-	border: 1px solid #dcdcdc;
+    border: 1px solid #acb0b3;
 	background-color: #f9f9f9;
     font-size: 15px;
     line-height: 39px;
-	color: #707070;
+    color: #707070;
 }
 .jq-selectbox.focused .jq-selectbox__select {
-	border: 1px solid #212121;
+	border: 1px solid #638f3e;
 }
 .jq-selectbox.disabled .jq-selectbox__select {
 	border-color: #ccc;
@@ -1424,6 +1441,11 @@ ul.tags > li > a:focus{
 .text-white{
     color: #fff;
 }
+
+.text-night{
+    color: #444444;
+}
+
 .default-text{
     font-size: 15px;
     color: #707070;
@@ -1433,6 +1455,13 @@ ul.tags > li > a:focus{
     text-align: center;
 }
 /* ===== text end ===== */
+
+/* ===== label ===== */
+.label{
+    font-size: 15px;
+    color: #444;
+}
+/* ===== label end ===== */
 
 /* === price-range === */
 
