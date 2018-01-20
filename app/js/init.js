@@ -53,3 +53,9 @@ $(function () {
   });
   
 });
+
+// init slick nav
+$('.menu-nav').slicknav({
+  appendTo: ".header .top-header .container .top-bar",
+  label:""
+});

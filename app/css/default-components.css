@@ -821,6 +821,8 @@ i.fa.fa-envelope-o.icon-btn{
 }
 .header .top-header{
     padding: 27px 0;
+    position: relative;
+    z-index: 100;
 }
 .header .top-header .auth-controls .auth-controls-help{
     color: #e74c3c;
@@ -870,7 +872,7 @@ i.fa.fa-envelope-o.icon-btn{
 }
 .header .bottom-header{
     padding: 25px 0;
-    background-color: #263238; 
+    background-color: #263238;
 }
 .header .bottom-header a{
     color: #fff;
@@ -880,6 +882,54 @@ i.fa.fa-envelope-o.icon-btn{
 }
 .header .bottom-header .menu-nav a + a{
     margin-left: 40px;
+}
+
+@media(max-width: 991px){
+    .bottom-header{
+        display: none;
+    }
+    .slicknav_menu{
+        display: block;
+    }
+}
+
+@media(max-width: 991px){
+    .header .top-header .auth-controls{
+        margin: auto;
+    }
+    .header .top-header .auth-controls .auth-controls-help,
+    .header .top-header .auth-controls p{
+        display: none;
+    }
+} 
+
+@media(max-width: 767px){
+    .header .top-header .auth-controls{
+        margin-top: 30px;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        width: 100%;
+        height: 100%;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .header .top-header .auth-controls .notification{
+        margin-left: 0;
+    }
+}
+@media(max-width: 767px){
+    .header .top-header .container .top-bar{
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
 }
 
 /* ===== HEADER END ===== */

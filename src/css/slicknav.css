@@ -6,13 +6,10 @@
 .slicknav_btn {
   position: relative;
   display: block;
-  vertical-align: middle;
-  float: right;
-  padding: 0.438em 0.625em 0.438em 0.625em;
   line-height: 1.125em;
   cursor: pointer; }
   .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
-    margin-top: 0.188em; }
+    margin-top: 5px; }
 
 .slicknav_menu {
   *zoom: 1; }
@@ -21,10 +18,7 @@
     line-height: 1.188em;
     float: left; }
   .slicknav_menu .slicknav_icon {
-    float: left;
-    width: 1.125em;
-    height: 0.875em;
-    margin: 0.188em 0 0 0.438em; }
+    width: 30px;}
     .slicknav_menu .slicknav_icon:before {
       background: transparent;
       width: 1.125em;
@@ -36,12 +30,12 @@
     margin: 0; }
   .slicknav_menu .slicknav_icon-bar {
     display: block;
-    width: 1.125em;
-    height: 0.125em;
+    width: 30px;
+    height: 2px;
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
     border-radius: 1px;
-    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0 1px 0 rgba(219, 135, 135, 0.25);
     -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); }
   .slicknav_menu:before {
@@ -78,8 +72,9 @@
 .slicknav_menu {
   font-size: 16px;
   box-sizing: border-box;
-  background: #4c4c4c;
-  padding: 5px; }
+  display: none;
+  margin-left: auto;
+  }
   .slicknav_menu * {
     box-sizing: border-box; }
   .slicknav_menu .slicknav_menutxt {
@@ -87,16 +82,7 @@
     font-weight: bold;
     text-shadow: 0 1px 3px #000; }
   .slicknav_menu .slicknav_icon-bar {
-    background-color: #fff; }
-
-.slicknav_btn {
-  margin: 5px 5px 6px;
-  text-decoration: none;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  background-color: #222; }
+    background-color: #000; }
 
 .slicknav_nav {
   color: #fff;
@@ -104,7 +90,13 @@
   padding: 0;
   font-size: 0.875em;
   list-style: none;
-  overflow: hidden; }
+  overflow: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #273338;
+  text-align: right; }
   .slicknav_nav ul {
     list-style: none;
     overflow: hidden;
@@ -120,10 +112,13 @@
       background: #ccc;
       color: #fff; }
   .slicknav_nav a {
-    padding: 5px 10px;
+    padding: 10px 10px;
     margin: 2px 5px;
     text-decoration: none;
-    color: #fff; }
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;}
     .slicknav_nav a:hover {
       -webkit-border-radius: 6px;
       -moz-border-radius: 6px;
