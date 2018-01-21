@@ -321,9 +321,11 @@
             <!-- / Breadcrumb -->
         </div>
         <div class="all-items-page-container">
+            <div class="overlay"></div>
+            <!--overlay -->
             <div class="container">
                 <div class="row d-flex flex-wrap">
-                    <div class="col-md-3">
+                    <div class="col-md-3 mobile-aside left">
                         <aside class="aside">
                             <div class="aside-section">
                                 <div class="aside-section-title card-border">
@@ -532,7 +534,10 @@
                         <!-- / col-md-3 -->
                         <div class="col-md-9">
                             <div class="sort-controls-container bg-white border-grey d-flex justify-content-between align-items-center">
-                                <div class="sort-by">
+                                <div class="sort-by d-flex">
+                                    <button class="mobile-aside-toggle">
+                                        <i class="fa fa-bars"></i>
+                                    </button>
                                     <i class="fa fa-sort-amount-desc active" aria-hidden="true"></i>
                                     <span>Sort by: New Items</span>
                                     <i class="fa fa-sort" aria-hidden="true"></i>
@@ -1443,6 +1448,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
     <script src="js/range.js"></script>
     <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/aside.js"></script>
     <!-- Init plugins -->
     <script src="js/init.js"></script>
 

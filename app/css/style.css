@@ -16,6 +16,7 @@
 .sort-controls-container .sort-by i{
     color: #455a64;
 }
+
 .all-items-page-container .aside-section-list{
     margin-top: 27px;
 }
@@ -38,6 +39,18 @@
     color: #90a4ae;
     float: right;
 }
+
+.mobile-aside-toggle{
+    display: none;
+}
+
+@media (max-width: 991px){
+    .mobile-aside-toggle{
+        display: block;
+        margin-right: 15px;
+    }
+}
+
 
 /* ===== all items page ===== */
 
@@ -164,6 +177,33 @@
     font-size: 18px;
     font-weight: 700;
   }
+
+
+@media (max-width: 767px){
+    .product-details-page-container .live-preview-and-docs a.btn + a.btn{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 767px){
+    .product-details-btn .btn.btn-items.btn-live-preview,
+    .product-details-btn .btn-gray,
+    .product-details-btn .btn-green{
+        width: 100%
+    }
+    .product-features .tab-content{
+        font-size: 13px;
+    }
+ }
+
+@media(max-width: 599px){
+    .tab-pane ul + ul{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+ 
 
 /* ==== aside ===== */
 
