@@ -71,7 +71,10 @@
     .social-navigation{
         margin: auto;
         margin-top: 15px; 
-    }   
+    }
+    .footer-content .title-footer{
+        font-size: 16px;
+    }
 }
 /* ====== Aside end ===== */
 

@@ -54,26 +54,22 @@
     }
 }
 
-
 @media(max-width: 991px){
     .footer .col-lg-3 + .col-lg-3 {
         margin-top: 30px;
     }
 }
 
-
 @media(max-width: 767px){
     .product-details-btn{
         margin: auto;
     }
-   
     .product-text-description .title-medium{
         font-size: 20px;
     }
     .product-details-page-container .product-text-description p{
         font-size: 14px;
-    }
-  
+    }  
 }
 
 @media(max-width: 599px){
@@ -81,7 +77,9 @@
         margin: auto;
         margin-top: 15px; 
     }
-    
+    .footer-content .title-footer{
+        font-size: 16px;
+    }
 }
 /* ====== Aside end ===== */
 

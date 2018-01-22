@@ -45,7 +45,7 @@
 }
 
 @media (max-width: 991px){
-    .mobile-aside-toggle{
+     .mobile-aside-toggle{
         display: block;
         margin-right: 15px;
     }
@@ -204,7 +204,6 @@
     }
 }
  
-
 /* ==== aside ===== */
 
 .product-details-page-container aside + aside{
@@ -349,6 +348,17 @@
 .profile-details-page-container .about-me-content p{
     margin-top: 30px;
     line-height: 24px;
+}
+
+@media (max-width: 599px){
+    .profile-details-author-info,
+    .profile-details-author-info .default-text,
+    .about-me-content .default-text{
+        font-size: 12px;
+    }
+    .about-me-content .small-size-title{
+        font-size: 16px;
+    }
 }
 
 /* ===== profile details page end ===== */
