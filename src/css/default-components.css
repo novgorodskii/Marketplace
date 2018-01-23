@@ -1086,8 +1086,7 @@ main{
 }
 
 .inner-form .inner-search{
-    max-width: 670px;
-    width: 100%;
+    width: 670px;
     height: 56px;
     padding-left: 24px;
     color: #90a4ae;
